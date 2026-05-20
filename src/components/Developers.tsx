@@ -31,7 +31,7 @@ const developers = [
     id: "atta",
     name: "Atta Doku Meadows",
     image: "/assets/atta1.png",
-    link: "/atta-doku-meadows", // Update this if your route name is different
+    link: "/atta-doku",
   },
 ];
 
@@ -60,7 +60,6 @@ export default function Developers() {
 
         {/* Developer Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
-          
           {/* Render Developer Cards */}
           {developers.map((dev) => (
             <Link
@@ -111,18 +110,29 @@ export default function Developers() {
           {/* Partner With Us CTA - Spans the remaining 3 columns on large screens */}
           <div className="lg:col-span-3 sm:col-span-1 rounded-2xl border-2 border-dashed border-gray-300 bg-white flex flex-col items-center justify-center p-8 text-center h-[400px] hover:bg-gray-50 transition-colors duration-300">
             <div className="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center text-blue-900 mb-4 shadow-sm">
-              <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m8-8H4" />
+              <svg
+                className="w-8 h-8"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={2}
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M12 4v16m8-8H4"
+                />
               </svg>
             </div>
             <h3 className="text-2xl font-black text-blue-900 mb-3 tracking-tight">
               Expanding Our Portfolio
             </h3>
             <p className="text-gray-500 max-w-lg leading-relaxed">
-              Access Bank is actively seeking and accepting partnerships with premier real estate developers. This registry will be updated dynamically as new institutional alliances are forged.
+              Access Bank is actively seeking and accepting partnerships with
+              premier real estate developers. This registry will be updated
+              dynamically as new institutional alliances are forged.
             </p>
           </div>
-
         </div>
       </div>
     </section>
