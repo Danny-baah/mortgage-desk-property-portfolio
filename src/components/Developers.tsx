@@ -13,7 +13,7 @@ const developers = [
     id: "quao",
     name: "Quao Realties",
     image: "/assets/Manora.jpg",
-    link: "/quao",
+    link: "/quao-realties",
   },
   {
     id: "mac-capital",
