@@ -5,6 +5,7 @@ export default function DevtracoResidences() {
   const residences = [
     {
       id: "arlo",
+      slug: "arlo-cantonments", // Added specific URL slug
       name: "Arlo Cantonments",
       tagline: "Intention Over Excess",
       location: "Cantonments",
@@ -13,6 +14,7 @@ export default function DevtracoResidences() {
     },
     {
       id: "forte",
+      slug: "forte-residence", // Added specific URL slug
       name: "Forte Residences",
       tagline: "Where Luxury Meets Timeless Design",
       location: "Prime Accra",
@@ -21,6 +23,7 @@ export default function DevtracoResidences() {
     },
     {
       id: "pelican",
+      slug: "pelican-hotel", // Added specific URL slug
       name: "Pelican Hotel — Cantonments",
       tagline: "A Revolution in Fractional Ownership",
       location: "Cantonments",
@@ -29,6 +32,7 @@ export default function DevtracoResidences() {
     },
     {
       id: "address",
+      slug: "the-address", // Added specific URL slug
       name: "The Address",
       tagline: "A New Standard of Urban Living",
       location: "Roman Ridge",
@@ -37,10 +41,11 @@ export default function DevtracoResidences() {
     },
     {
       id: "woodlands",
+      slug: "devtraco-woodlands", // Added specific URL slug
       name: "Devtraco Woodlands",
       tagline: "The Master-Planned Gated City",
       location: "Dawhenya",
-      image: "/assets/woodlands.png", // Using 'woodlans' as specified
+      image: "/assets/woodlands.png",
       description: `Devtraco Woodlands is not just a residential development — it is an entirely new way of living. Sprawling across an expansive 592-acre master-planned gated city in Dawhenya, Woodlands offers a rare blend of coastal serenity and urban energy, just minutes from Central University College.\n\nFrom litigation-free land plots and contemporary homes to modern infrastructure, a commercial district, medical centre, and round-the-clock security — every detail has been designed with your convenience and peace of mind at the centre.\n\nWith breathtaking beaches within reach and world-class social and recreational facilities on-site, Woodlands seamlessly weaves together living, work, and leisure into one extraordinary lifestyle destination.`,
     },
   ];
@@ -48,7 +53,6 @@ export default function DevtracoResidences() {
   return (
     <section id="residences" className="py-24 bg-slate-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
         {/* --- SECTION HEADING --- */}
         <div className="text-center max-w-3xl mx-auto mb-24">
           <h2 className="text-xs font-bold uppercase tracking-[0.3em] text-orange-500 mb-4">
@@ -58,15 +62,16 @@ export default function DevtracoResidences() {
             Our Iconic Residences
           </h3>
           <p className="text-lg text-slate-600 font-light leading-relaxed">
-            From cosmopolitan apartments in the city's heart to sprawling gated cities on the coast, 
-            explore the developments that have defined luxury in Ghana for three decades.
+            From cosmopolitan apartments in the city's heart to sprawling gated
+            cities on the coast, explore the developments that have defined
+            luxury in Ghana for three decades.
           </p>
         </div>
 
         {/* --- ALTERNATING RESIDENCES LIST --- */}
         <div className="space-y-32 lg:space-y-48">
           {residences.map((res, index) => (
-            <div 
+            <div
               key={res.id}
               className={`flex flex-col gap-12 lg:gap-20 items-center ${
                 index % 2 === 0 ? "lg:flex-row" : "lg:flex-row-reverse"
@@ -101,21 +106,25 @@ export default function DevtracoResidences() {
                 <div className="space-y-4 mb-10 text-slate-600 leading-relaxed font-light text-base md:text-lg whitespace-pre-line">
                   {res.description}
                 </div>
-                
-                {/* View Residence Button */}
+
+                {/* View Residence Button - NOW DYNAMIC */}
                 <Link
-                  href={`/register?residence=${res.id}`}
+                  href={`/devtraco/${res.slug}`}
                   className="inline-flex items-center justify-center px-8 py-4 bg-blue-900 text-white rounded-full font-bold transition-all duration-300 hover:bg-orange-500 shadow-xl shadow-blue-900/10 hover:shadow-orange-500/30 group/btn"
                 >
                   View Residence
-                  <svg 
-                    className="w-5 h-5 ml-2 transform transition-transform duration-300 group-hover/btn:translate-x-1" 
-                    fill="none" 
-                    viewBox="0 0 24 24" 
-                    stroke="currentColor" 
+                  <svg
+                    className="w-5 h-5 ml-2 transform transition-transform duration-300 group-hover/btn:translate-x-1"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
                     strokeWidth={2.5}
                   >
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+                    />
                   </svg>
                 </Link>
               </div>
