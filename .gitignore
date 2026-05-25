@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+public/assets/grace_city_prime_homes/GRACE CITY PHASE 3.mp4
+public/assets/grace_city_prime_land/GRACE CITY PHASE 3.mp4
+public/assets/the_future/THE FUTURE PROJECT conv.mp4

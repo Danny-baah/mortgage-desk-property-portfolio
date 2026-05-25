@@ -1,13 +1,15 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 
-// Array of your developer partners - Updated with Atta Doku Meadows
+// Array of your developer partners - Updated with Royal Kingdom Estate
 const developers = [
   {
     id: "devtraco",
     name: "Devtraco Plus",
     image: "/assets/devtraco.jpg",
-    link: "/devtraco", // Added missing forward slash for consistency
+    link: "/devtraco",
   },
   {
     id: "quao",
@@ -33,12 +35,19 @@ const developers = [
     image: "/assets/atta1.png",
     link: "/atta-doku",
   },
+  {
+    id: "royal-kingdom",
+    name: "Royal Kingdom Estate",
+    image: "/assets/royal_kingdom/Picture17.jpg",
+    link: "/royal-kingdom",
+  },
 ];
 
 export default function Developers() {
   return (
     <section className="py-20 lg:py-28 bg-gray-50 border-t border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="flex items-center justify-center gap-3 mb-4">
@@ -72,6 +81,7 @@ export default function Developers() {
                 src={dev.image}
                 alt={`${dev.name} properties`}
                 fill
+                sizes="(max-w-640px) 100vw, (max-w-1024px) 50vw, 25vw"
                 className="object-cover object-center group-hover:scale-110 transition-transform duration-700 ease-in-out"
               />
 
@@ -107,8 +117,8 @@ export default function Developers() {
             </Link>
           ))}
 
-          {/* Partner With Us CTA - Spans the remaining 3 columns on large screens */}
-          <div className="lg:col-span-3 sm:col-span-1 rounded-2xl border-2 border-dashed border-gray-300 bg-white flex flex-col items-center justify-center p-8 text-center h-[400px] hover:bg-gray-50 transition-colors duration-300">
+          {/* Partner With Us CTA - Symmetrically spans the remaining 2 columns on medium and large screens */}
+          <div className="lg:col-span-2 sm:col-span-2 rounded-2xl border-2 border-dashed border-gray-300 bg-white flex flex-col items-center justify-center p-8 text-center h-[400px] hover:bg-gray-50 transition-colors duration-300">
             <div className="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center text-blue-900 mb-4 shadow-sm">
               <svg
                 className="w-8 h-8"
@@ -134,6 +144,7 @@ export default function Developers() {
             </p>
           </div>
         </div>
+
       </div>
     </section>
   );
