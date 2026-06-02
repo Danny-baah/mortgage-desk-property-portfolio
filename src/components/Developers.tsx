@@ -47,7 +47,6 @@ export default function Developers() {
   return (
     <section className="py-20 lg:py-28 bg-gray-50 border-t border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="flex items-center justify-center gap-3 mb-4">
@@ -144,7 +143,6 @@ export default function Developers() {
             </p>
           </div>
         </div>
-
       </div>
     </section>
   );

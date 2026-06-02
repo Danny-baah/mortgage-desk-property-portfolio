@@ -10,10 +10,10 @@ export default function AutographPage() {
     <main className="bg-white min-h-screen font-sans overflow-hidden">
       <AutographHero />
       <AutographAbout />
-        <AutographAmenities />
-        <AutographApartments />
-        <AutographGallery />
-        <AutographCTA />
+      <AutographAmenities />
+      <AutographApartments />
+      <AutographGallery />
+      <AutographCTA />
     </main>
   );
 }

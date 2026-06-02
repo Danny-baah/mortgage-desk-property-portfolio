@@ -19,8 +19,8 @@ export default function Navbar() {
         }
       `}} />
 
-      {/* Top Brand Accent Bar */}
-      <div className="h-1.5 w-full bg-gradient-to-r from-blue-900 via-green-600 to-orange-500" />
+      {/* Top Brand Accent Bar - Using exact HEX #b5d334 */}
+      <div className="h-1.5 w-full bg-gradient-to-r from-[#b5d334] via-green-600 to-orange-500" />
 
       {/* Main Centered Container */}
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
@@ -48,10 +48,9 @@ export default function Navbar() {
                 Mortgage Desk
               </span>
               
-              {/* Splitting the text for the Wave Animation */}
-              <div className="font-black text-2xl md:text-3xl text-blue-900 leading-none flex gap-2">
-                <span className="animate-jump">Property</span>
-                {/* The delay makes Portfolio wait a fraction of a second before jumping */}
+              {/* Properties Portfolio using exact HEX #b5d334 */}
+              <div className="font-black text-2xl md:text-3xl text-[#b5d334] leading-none flex gap-2">
+                <span className="animate-jump">Properties</span>
                 <span className="animate-jump" style={{ animationDelay: '0.15s' }}>Portfolio</span>
               </div>
             </div>
@@ -59,22 +58,74 @@ export default function Navbar() {
 
           {/* RIGHT SIDE: Navigation Links */}
           <div className="flex-shrink-0">
-            <div className="hidden md:flex items-center gap-2 bg-gray-50 p-1.5 rounded-full border border-gray-200 shadow-inner">
+            <div className="hidden md:flex items-center gap-2 bg-gray-50 p-1.5 rounded-full border border-gray-200 shadow-inner relative">
               <Link 
                 href="/" 
-                className="px-6 py-2 rounded-full text-sm font-bold text-blue-900 hover:text-white hover:bg-green-600 transition-all duration-300"
+                className="px-6 py-2 rounded-full text-sm font-bold text-black hover:text-white hover:bg-[#b5d334] transition-all duration-300"
               >
                 Home
               </Link>
+
+              {/* DEVELOPERS DROPDOWN */}
+              <div className="relative group">
+                <button className="px-6 py-2 rounded-full text-sm font-bold text-black hover:text-white hover:bg-[#b5d334] transition-all duration-300 flex items-center gap-1">
+                  Developers
+                  <svg className="w-4 h-4 transition-transform duration-300 group-hover:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+                
+                {/* Dropdown Menu Box containing all 6 developers */}
+                <div className="absolute left-0 mt-2 w-64 bg-white border border-gray-200 rounded-2xl shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 flex flex-col overflow-hidden z-50">
+                  <Link 
+                    href="/devtraco" 
+                    className="px-5 py-3 text-sm font-bold text-black hover:bg-[#b5d334] hover:text-white transition-colors border-b border-gray-100"
+                  >
+                    Devtraco
+                  </Link>
+                  <Link 
+                    href="/quao-realties" 
+                    className="px-5 py-3 text-sm font-bold text-black hover:bg-[#b5d334] hover:text-white transition-colors border-b border-gray-100"
+                  >
+                    Quao Realties
+                  </Link>
+                  <Link 
+                    href="/mac-capital" 
+                    className="px-5 py-3 text-sm font-bold text-black hover:bg-[#b5d334] hover:text-white transition-colors border-b border-gray-100"
+                  >
+                    Mac Capital
+                  </Link>
+                  <Link 
+                    href="/peregrino-properties" 
+                    className="px-5 py-3 text-sm font-bold text-black hover:bg-[#b5d334] hover:text-white transition-colors border-b border-gray-100"
+                  >
+                    Peregrino Properties
+                  </Link>
+                  <Link 
+                    href="/atta-doku-meadows" 
+                    className="px-5 py-3 text-sm font-bold text-black hover:bg-[#b5d334] hover:text-white transition-colors border-b border-gray-100"
+                  >
+                    Atta-Doku Meadows
+                  </Link>
+                  <Link 
+                    href="/royal-kingdom" 
+                    className="px-5 py-3 text-sm font-bold text-black hover:bg-[#b5d334] hover:text-white transition-colors"
+                  >
+                    Royal Kingdom
+                  </Link>
+                </div>
+              </div>
+
               <Link 
                 href="/contact" 
-                className="px-6 py-2 rounded-full text-sm font-bold text-blue-900 hover:text-white hover:bg-green-600 transition-all duration-300"
+                className="px-6 py-2 rounded-full text-sm font-bold text-black hover:text-white hover:bg-[#b5d334] transition-all duration-300"
               >
                 Contact Us
               </Link>
+              
               <Link 
                 href="/register" 
-                className="px-8 py-2 rounded-full text-sm font-bold text-white bg-orange-500 hover:bg-orange-600 shadow-md hover:-translate-y-0.5 transition-all duration-300"
+                className="px-8 py-2 rounded-full text-sm font-bold text-white bg-orange-500 hover:bg-orange-600 shadow-md hover:-translate-y-0.5 transition-all duration-300 ml-2"
               >
                 Register
               </Link>
