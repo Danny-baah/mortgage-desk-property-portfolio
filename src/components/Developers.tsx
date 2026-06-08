@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-// Array of your developer partners - Updated with Royal Kingdom Estate
+// Array of your developer partners - Updated with Royal Kingdom Estate and Greenpark Properties
 const developers = [
   {
     id: "devtraco",
@@ -26,7 +26,7 @@ const developers = [
   {
     id: "peregrino",
     name: "Peregrino Properties",
-    image: "/assets/peregrino.jpg",
+    image: "/assets/peregrino/Picture3.jpg",
     link: "/peregrino",
   },
   {
@@ -40,6 +40,12 @@ const developers = [
     name: "Royal Kingdom Estate",
     image: "/assets/royal_kingdom/Picture17.jpg",
     link: "/royal-kingdom",
+  },
+  {
+    id: "greenpark",
+    name: "Greenpark Properties",
+    image: "/assets/greenpark/haven_6.jpg",
+    link: "/greenpark",
   },
 ];
 
@@ -56,7 +62,8 @@ export default function Developers() {
             </span>
             <span className="h-px w-8 bg-orange-500"></span>
           </div>
-          <h2 className="text-4xl md:text-5xl font-black text-blue-900 mb-6">
+          {/* Text changed to Dominant Green */}
+          <h2 className="text-4xl md:text-5xl font-black text-[#b5d334] mb-6">
             Our Developers
           </h2>
           <p className="text-lg text-gray-600 leading-relaxed">
@@ -84,7 +91,7 @@ export default function Developers() {
                 className="object-cover object-center group-hover:scale-110 transition-transform duration-700 ease-in-out"
               />
 
-              {/* Gradient Overlay (Darkens at the bottom so text is readable) */}
+              {/* RESTORED Blue Gradient Overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-blue-900/90 via-blue-900/20 to-transparent opacity-80 group-hover:opacity-100 transition-opacity duration-300"></div>
 
               {/* Text Content inside the card */}
@@ -118,7 +125,8 @@ export default function Developers() {
 
           {/* Partner With Us CTA - Symmetrically spans the remaining 2 columns on medium and large screens */}
           <div className="lg:col-span-2 sm:col-span-2 rounded-2xl border-2 border-dashed border-gray-300 bg-white flex flex-col items-center justify-center p-8 text-center h-[400px] hover:bg-gray-50 transition-colors duration-300">
-            <div className="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center text-blue-900 mb-4 shadow-sm">
+            {/* Icon color changed to Dominant Green */}
+            <div className="w-16 h-16 bg-[#b5d334]/10 rounded-full flex items-center justify-center text-[#b5d334] mb-4 shadow-sm">
               <svg
                 className="w-8 h-8"
                 fill="none"
@@ -133,7 +141,8 @@ export default function Developers() {
                 />
               </svg>
             </div>
-            <h3 className="text-2xl font-black text-blue-900 mb-3 tracking-tight">
+            {/* Heading color changed to Dominant Green */}
+            <h3 className="text-2xl font-black text-[#b5d334] mb-3 tracking-tight">
               Expanding Our Portfolio
             </h3>
             <p className="text-gray-500 max-w-lg leading-relaxed">

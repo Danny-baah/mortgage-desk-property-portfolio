@@ -14,7 +14,7 @@ export default function Hero() {
         priority
         className="object-cover object-center opacity-90"
       />
-      
+
       {/* Slightly darkened overlay for better text contrast */}
       <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/30 to-black/70" />
 
@@ -27,10 +27,11 @@ export default function Hero() {
           The Decade Apartment
         </h1>
         <p className="mt-6 text-lg sm:text-xl text-slate-100 font-medium max-w-2xl mx-auto drop-shadow-md">
-          Experience luxury short-stay living perfectly engineered for both business and leisure travelers in Accra.
+          Experience luxury short-stay living perfectly engineered for both
+          business and leisure travelers in Accra.
         </p>
         <div className="mt-8 flex justify-center">
-          <a 
+          <a
             href="#about"
             className="px-8 py-3.5 bg-[#b5d334] hover:bg-[#b5d334]/90 text-black font-black uppercase tracking-wider text-xs rounded-xl shadow-lg transition-all transform hover:-translate-y-0.5"
           >

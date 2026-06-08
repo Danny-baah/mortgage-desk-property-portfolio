@@ -52,7 +52,7 @@ export default function RegisterAcquisitionPage() {
       {/* =========================================================
          1. HERO SECTION WITH FLOATING REGISTRY CARD
          ========================================================= */}
-      <section className="relative w-full min-h-[500px] lg:min-h-[580px] flex items-center bg-blue-950 overflow-visible z-10">
+      <section className="relative w-full min-h-[500px] lg:min-h-[580px] flex items-center bg-black-950 overflow-visible z-10">
         {/* Neutral Structured Architecture Background */}
         <div className="absolute inset-0 z-0">
           <Image
