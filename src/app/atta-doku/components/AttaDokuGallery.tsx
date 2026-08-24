@@ -145,7 +145,7 @@ export default function AttaDokuGallery() {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center gap-2 bg-white/5 px-4 py-1.5 rounded-full mb-4 border border-white/10">
             <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span>
-            <span className="text-xs font-bold uppercase tracking-widest text-slate-300">
+            <span className="text-xs font-bold uppercase tracking-widest text-orange-500">
               Visual Exhibition
             </span>
           </div>

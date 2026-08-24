@@ -106,8 +106,8 @@ export default function ManoraAmenities() {
               <span className="w-8 h-px bg-orange-500"></span>
             </div>
           </div>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-blue-950 uppercase tracking-tight">
-            World-Class <span className="text-orange-500">Amenities</span>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-[#b5d334] uppercase tracking-tight">
+            World-Class <span className="text-[#b5d334]">Amenities</span>
           </h2>
           <p className="mt-4 text-base sm:text-lg text-slate-600 max-w-2xl mx-auto font-light">
             Every square inch of Manora Residences is purposefully crafted to create an effortless environment of luxury, productivity, and modern safety.
@@ -136,7 +136,7 @@ export default function ManoraAmenities() {
                   {amenity.icon}
                 </div>
 
-                <h3 className="text-lg font-black text-blue-950 uppercase tracking-tight mb-2 group-hover:text-orange-500 transition-colors duration-300">
+                <h3 className="text-lg font-black text-[#b5d334] uppercase tracking-tight mb-2 group-hover:text-orange-500 transition-colors duration-300">
                   {amenity.title}
                 </h3>
                 

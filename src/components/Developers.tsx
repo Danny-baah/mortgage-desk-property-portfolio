@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-// Array of your developer partners - Updated with Royal Kingdom Estate and Greenpark Properties
+// Array of your developer partners - Updated with Shelter Mart Properties
 const developers = [
   {
     id: "devtraco",
@@ -46,6 +46,12 @@ const developers = [
     name: "Greenpark Properties",
     image: "/assets/greenpark/haven_6.jpg",
     link: "/greenpark",
+  },
+  {
+    id: "shelter-mart",
+    name: "Shelter Mart Properties",
+    image: "/assets/shelter/Picture1.jpeg",
+    link: "/shelter-mart",
   },
 ];
 
@@ -123,8 +129,8 @@ export default function Developers() {
             </Link>
           ))}
 
-          {/* Partner With Us CTA - Symmetrically spans the remaining 2 columns on medium and large screens */}
-          <div className="lg:col-span-2 sm:col-span-2 rounded-2xl border-2 border-dashed border-gray-300 bg-white flex flex-col items-center justify-center p-8 text-center h-[400px] hover:bg-gray-50 transition-colors duration-300">
+          {/* Partner With Us CTA - Now spans full width cleanly across all columns */}
+          <div className="col-span-1 sm:col-span-2 lg:col-span-4 rounded-2xl border-2 border-dashed border-gray-300 bg-white flex flex-col items-center justify-center p-8 text-center h-[400px] hover:bg-gray-50 transition-colors duration-300">
             {/* Icon color changed to Dominant Green */}
             <div className="w-16 h-16 bg-[#b5d334]/10 rounded-full flex items-center justify-center text-[#b5d334] mb-4 shadow-sm">
               <svg

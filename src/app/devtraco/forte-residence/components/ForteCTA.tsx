@@ -10,8 +10,8 @@ export default function ForteCTA() {
         {/* Subtle background glow */}
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-64 h-64 bg-orange-500/10 rounded-full blur-3xl pointer-events-none"></div>
 
-        <h2 className="text-2xl sm:text-3xl font-black text-white uppercase tracking-tight mb-2 relative z-10">
-          Make <span className="text-orange-500">Forte</span> Yours
+        <h2 className="text-2xl sm:text-3xl font-black text-[#b5d334] uppercase tracking-tight mb-2 relative z-10">
+          Make <span className="text-[#b5d334]">Forte</span> Yours
         </h2>
         
         <p className="text-slate-300 font-light mb-6 text-sm sm:text-base relative z-10">
@@ -20,7 +20,7 @@ export default function ForteCTA() {
         
         <Link
           href="/contact"
-          className="inline-flex items-center gap-2 px-6 py-3 bg-orange-500 text-white hover:bg-orange-600 text-xs font-bold uppercase tracking-widest rounded-full transition-all duration-300 shadow-md shadow-orange-500/10 relative z-10"
+          className="inline-flex items-center gap-2 px-6 py-3 bg-[#b5d334] text-white hover:bg-orange-600 text-xs font-bold uppercase tracking-widest rounded-full transition-all duration-300 shadow-md shadow-orange-500/10 relative z-10"
         >
           <span>Book A Viewing</span>
           <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>

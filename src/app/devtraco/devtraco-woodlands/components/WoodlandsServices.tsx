@@ -61,25 +61,23 @@ export default function WoodlandsServices() {
         <div className="max-w-3xl mb-24 text-center mx-auto">
           <div className="flex justify-center mb-4">
             <div className="inline-flex items-center gap-3">
-              <span className="w-8 h-px bg-emerald-600"></span>
-              <span className="text-xs font-bold uppercase tracking-[0.25em] text-emerald-600">
+              <span className="w-8 h-px bg-orange-500"></span>
+              <span className="text-xs font-bold uppercase tracking-[0.25em] text-orange-500">
                 Core Infrastructure
               </span>
-              <span className="w-8 h-px bg-emerald-600"></span>
+              <span className="w-8 h-px bg-orange-500"></span>
             </div>
           </div>
-          <h2 className="text-4xl sm:text-5xl font-black text-blue-950 uppercase tracking-tighter mb-6 leading-tight">
-            Engineered For <span className="text-orange-500">Uncompromised</span> Living
+          <h2 className="text-4xl sm:text-5xl font-black text-[#b5d334] uppercase tracking-tighter mb-6 leading-tight">
+            Engineered For <span className="text-[#b5d334]">Uncompromised</span> Living
           </h2>
-          <div className="w-16 h-1 bg-emerald-600 mx-auto mb-6"></div>
+          <div className="w-16 h-1 bg-orange-500 mx-auto mb-6"></div>
           <p className="text-slate-600 font-light text-base sm:text-lg max-w-2xl mx-auto">
             Beyond the natural surroundings, Devtraco Woodlands is reinforced by an advanced, synchronized framework of civil systems designed for long-term reliability and asset protection.
           </p>
         </div>
 
-        {/* =========================================================
-            SYMMETRICAL 2-COLUMN BALANCED MATRIX
-            ========================================================= */}
+       
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-16">
           {servicesData.map((service, idx) => (
             <div 
@@ -105,13 +103,13 @@ export default function WoodlandsServices() {
                 
                 {/* Module Identifiers using Emerald Branding */}
                 <div className="flex items-center justify-between mb-3">
-                  <span className="text-[10px] font-black tracking-[0.2em] text-emerald-600 uppercase">
+                  <span className="text-[10px] font-black tracking-[0.2em] text-orange-500 uppercase">
                     SYS-MODULE // 0{idx + 1}
                   </span>
                   <div className="w-1.5 h-1.5 rounded-full bg-slate-200 group-hover:bg-orange-500 transition-colors duration-300"></div>
                 </div>
 
-                <h3 className="text-lg md:text-xl font-black text-blue-950 uppercase tracking-tight mb-3 group-hover:text-orange-500 transition-colors duration-300">
+                <h3 className="text-lg md:text-xl font-black text-[#b5d334] uppercase tracking-tight mb-3 group-hover:text-orange-500 transition-colors duration-300">
                   {service.title}
                 </h3>
                 

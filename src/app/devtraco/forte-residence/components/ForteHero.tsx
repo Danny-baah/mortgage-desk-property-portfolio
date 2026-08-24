@@ -31,11 +31,11 @@ export default function ForteHero() {
         </div>
 
         {/* Animated Title */}
-        <h1 className="text-5xl sm:text-7xl lg:text-8xl font-black text-white uppercase tracking-tighter mb-6 leading-none flex flex-col items-center">
+        <h1 className="text-5xl sm:text-7xl lg:text-8xl font-black text-[#b5d334] uppercase tracking-tighter mb-6 leading-none flex flex-col items-center">
           <span className="animate-slide-down inline-block drop-shadow-2xl">
             FORTE
           </span>
-          <span className="text-orange-500 animate-slide-up inline-block drop-shadow-xl mt-1 sm:mt-2">
+          <span className="text-[#b5d334] animate-slide-up inline-block drop-shadow-xl mt-1 sm:mt-2">
             RESIDENCES
           </span>
         </h1>
@@ -47,7 +47,7 @@ export default function ForteHero() {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full sm:w-auto animate-fade-in-delayed-more">
           <Link
             href="#about-forte"
-            className="inline-flex items-center justify-center px-8 py-4 bg-orange-500 text-white font-bold uppercase tracking-widest text-xs rounded-full transition-all duration-300 hover:bg-orange-600 hover:scale-105 shadow-xl shadow-orange-500/20 w-full sm:w-auto"
+            className="inline-flex items-center justify-center px-8 py-4 bg-[#b5d334] text-white font-bold uppercase tracking-widest text-xs rounded-full transition-all duration-300 hover:bg-orange-600 hover:scale-105 shadow-xl shadow-orange-500/20 w-full sm:w-auto"
           >
             Discover the Enclave
           </Link>

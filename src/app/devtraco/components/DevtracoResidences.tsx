@@ -58,7 +58,7 @@ export default function DevtracoResidences() {
           <h2 className="text-xs font-bold uppercase tracking-[0.3em] text-orange-500 mb-4">
             The Signature Portfolio
           </h2>
-          <h3 className="text-4xl md:text-5xl font-black text-blue-900 mb-6 leading-tight">
+          <h3 className="text-4xl md:text-5xl font-black text-[#b5d334] mb-6 leading-tight">
             Our Iconic Residences
           </h3>
           <p className="text-lg text-slate-600 font-light leading-relaxed">
@@ -88,7 +88,7 @@ export default function DevtracoResidences() {
                   />
                   {/* Location Badge */}
                   <div className="absolute top-6 left-6 bg-white/90 backdrop-blur-md px-4 py-2 rounded-full shadow-lg">
-                    <span className="text-[10px] font-black uppercase tracking-widest text-blue-900">
+                    <span className="text-[10px] font-black uppercase tracking-widest text-blue-950">
                       {res.location}
                     </span>
                   </div>
@@ -100,7 +100,7 @@ export default function DevtracoResidences() {
                 <h4 className="text-orange-500 font-bold uppercase tracking-widest text-xs mb-3">
                   {res.tagline}
                 </h4>
-                <h3 className="text-3xl md:text-4xl font-black text-blue-900 mb-6 tracking-tight">
+                <h3 className="text-3xl md:text-4xl font-black text-[#b5d334] mb-6 tracking-tight">
                   {res.name}
                 </h3>
                 <div className="space-y-4 mb-10 text-slate-600 leading-relaxed font-light text-base md:text-lg whitespace-pre-line">
@@ -110,7 +110,7 @@ export default function DevtracoResidences() {
                 {/* View Residence Button - NOW DYNAMIC */}
                 <Link
                   href={`/devtraco/${res.slug}`}
-                  className="inline-flex items-center justify-center px-8 py-4 bg-blue-900 text-white rounded-full font-bold transition-all duration-300 hover:bg-orange-500 shadow-xl shadow-blue-900/10 hover:shadow-orange-500/30 group/btn"
+                  className="inline-flex items-center justify-center px-8 py-4 bg-[#b5d334] text-white rounded-full font-bold transition-all duration-300 hover:bg-orange-500 shadow-xl shadow-blue-900/10 hover:shadow-orange-500/30 group/btn"
                 >
                   View Residence
                   <svg

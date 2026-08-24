@@ -13,12 +13,12 @@ export default function WoodlandsCTA() {
         </div>
 
         <div className="relative z-10 max-w-2xl mx-auto">
-          <span className="text-[10px] font-black uppercase tracking-[0.3em] text-emerald-600 block mb-3">
+          <span className="text-[10px] font-black uppercase tracking-[0.3em] text-orange-500 block mb-3">
             Premium Suburban Retreat
           </span>
           
-          <h2 className="text-3xl sm:text-4xl font-black text-white uppercase tracking-tight mb-4 leading-tight">
-            Secure Your Positioning <br />At <span className="text-orange-500">Devtraco Woodlands</span>
+          <h2 className="text-3xl sm:text-4xl font-black text-[#b5d334] uppercase tracking-tight mb-4 leading-tight">
+            Secure Your Positioning <br />At <span className="text-[#b5d334]">Devtraco Woodlands</span>
           </h2>
           
           <p className="text-slate-300 font-light mb-10 text-sm sm:text-base leading-relaxed">
@@ -30,7 +30,7 @@ export default function WoodlandsCTA() {
             
             <Link
               href="/register"
-              className="inline-flex items-center justify-center px-8 py-4 bg-orange-500 text-white hover:bg-orange-600 text-xs font-bold uppercase tracking-widest rounded-full transition-all duration-300 shadow-lg shadow-orange-500/10 w-full sm:w-auto text-center"
+              className="inline-flex items-center justify-center px-8 py-4 bg-[#b5d334] text-white hover:bg-orange-600 text-xs font-bold uppercase tracking-widest rounded-full transition-all duration-300 shadow-lg shadow-orange-500/10 w-full sm:w-auto text-center"
             >
               Register Allocation
             </Link>

@@ -103,23 +103,23 @@ export default function MacCapitalDetails() {
               <h2 className="text-xs font-bold uppercase tracking-[0.2em] text-orange-500 mb-2">
                 Investment Profile
               </h2>
-              <h3 className="text-3xl font-black text-blue-950 tracking-tight mb-8">
+              <h3 className="text-3xl font-black text-[#b5d334] tracking-tight mb-8">
                 Acquisition Details
               </h3>
 
               {/* Pricing Section */}
               <div className="mb-8 pb-8 border-b border-slate-200">
                 <p className="text-sm text-slate-500 font-medium mb-1">Total Market Value</p>
-                <h4 className="text-5xl font-black text-blue-900">
+                <h4 className="text-5xl font-black text-[#b5d334]">
                   $165,000<span className="text-xl text-slate-400 font-medium">.00</span>
                 </h4>
                 
                 <div className="flex flex-wrap gap-3 mt-4">
-                  <span className="inline-flex items-center px-3 py-1.5 rounded-lg bg-green-50 text-green-700 text-xs font-bold border border-green-100">
+                  <span className="inline-flex items-center px-3 py-1.5 rounded-lg bg-green-50 text-blue-950 text-xs font-bold border border-green-100">
                     <svg className="w-4 h-4 mr-1.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
                     Mortgage Accepted
                   </span>
-                  <span className="inline-flex items-center px-3 py-1.5 rounded-lg bg-blue-50 text-blue-700 text-xs font-bold border border-blue-100">
+                  <span className="inline-flex items-center px-3 py-1.5 rounded-lg bg-blue-50 text-orange-500 text-xs font-bold border border-blue-100">
                     <svg className="w-4 h-4 mr-1.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
                     Direct Payment Available
                   </span>
@@ -155,7 +155,7 @@ export default function MacCapitalDetails() {
               {/* Call to Action mapped to Registration */}
               <Link
                 href="/register"
-                className="w-full inline-flex items-center justify-center px-6 py-4 bg-blue-900 text-white rounded-xl font-bold transition-all duration-300 hover:bg-orange-500 shadow-xl hover:-translate-y-1 group"
+                className="w-full inline-flex items-center justify-center px-6 py-4 bg-[#b5d334] text-white rounded-xl font-bold transition-all duration-300 hover:bg-orange-500 shadow-xl hover:-translate-y-1 group"
               >
                 Secure this Property
                 <svg className="w-4 h-4 ml-2 transform transition-transform duration-300 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>

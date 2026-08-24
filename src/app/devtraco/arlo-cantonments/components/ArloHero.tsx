@@ -34,7 +34,7 @@ export default function ArloHero() {
           </div>
         </div>
 
-        <h1 className="text-5xl sm:text-7xl lg:text-8xl font-black text-white uppercase tracking-tighter mb-6 drop-shadow-2xl leading-none">
+        <h1 className="text-5xl sm:text-7xl lg:text-8xl font-black text-[#b5d334] uppercase tracking-tighter mb-6 drop-shadow-2xl leading-none">
           ARLO
         </h1>
 
@@ -45,7 +45,7 @@ export default function ArloHero() {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-5">
           <Link
             href="#about-arlo"
-            className="group relative px-8 py-4 bg-orange-500 text-white font-bold uppercase tracking-widest text-xs transition-all duration-300 hover:bg-orange-600 hover:scale-105 hover:shadow-[0_0_30px_rgba(249,115,22,0.4)] rounded-full w-full sm:w-auto flex justify-center items-center gap-3"
+            className="group relative px-8 py-4 bg-[#b5d334] text-white font-bold uppercase tracking-widest text-xs transition-all duration-300 hover:bg-orange-600 hover:scale-105 hover:shadow-[0_0_30px_rgba(249,115,22,0.4)] rounded-full w-full sm:w-auto flex justify-center items-center gap-3"
           >
             <span>Explore Arlo</span>
             <svg className="w-4 h-4 transform transition-transform duration-500 group-hover:translate-y-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>

@@ -32,8 +32,8 @@ export default function AccessBankCTA() {
           <div>
             {/* Financing Partner Label - Set to Orange */}
             <div className="inline-flex items-center gap-2 mb-2">
-              <span className="w-4 h-px bg-[#f82000]" />
-              <span className="text-[10px] font-bold uppercase tracking-widest text-[#f82000]">
+              <span className="w-4 h-px bg-orange-500" />
+              <span className="text-[10px] font-bold uppercase tracking-widest text-orange-500">
                 Financing Partner
               </span>
             </div>

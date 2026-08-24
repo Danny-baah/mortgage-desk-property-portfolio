@@ -71,24 +71,24 @@ export default function MacCapitalFeatures() {
               Premium Specifications
             </span>
           </div>
-          <h2 className="text-4xl md:text-5xl font-black text-blue-950 tracking-tight">
+          <h2 className="text-4xl md:text-5xl font-black text-[#b5d334] tracking-tight">
             Key Features
           </h2>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 items-start">
           
-          {/* LEFT SIDE: Features Grid */}
+          
           <div className="lg:col-span-7 grid grid-cols-1 md:grid-cols-2 gap-6">
             {features.map((feature, idx) => (
               <div 
                 key={idx} 
                 className="bg-white p-6 rounded-3xl border border-slate-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group"
               >
-                <div className="w-14 h-14 rounded-2xl bg-blue-50 flex items-center justify-center text-blue-900 mb-6 group-hover:bg-orange-500 group-hover:text-white transition-colors duration-300">
+                <div className="w-14 h-14 rounded-2xl bg-blue-50 flex items-center justify-center text-blue-950 mb-6 group-hover:bg-orange-500 group-hover:text-white transition-colors duration-300">
                   {feature.icon}
                 </div>
-                <h3 className="text-lg font-bold text-blue-950 mb-3">{feature.title}</h3>
+                <h3 className="text-lg font-bold text-[#b5d334] mb-3">{feature.title}</h3>
                 <p className="text-sm text-slate-600 font-light leading-relaxed">
                   {feature.description}
                 </p>

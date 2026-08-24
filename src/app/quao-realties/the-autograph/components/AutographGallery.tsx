@@ -76,8 +76,8 @@ export default function ManoraGallery() {
               <span className="w-8 h-px bg-orange-500"></span>
             </div>
           </div>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-blue-950 uppercase tracking-tight">
-            The Autograph  <span className="text-orange-500">Gallery</span>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-[#b5d334] uppercase tracking-tight">
+            The Autograph  <span className="text-[#b5d334]">Gallery</span>
           </h2>
           <p className="mt-6 text-base sm:text-lg text-slate-600 max-w-2xl mx-auto font-light">
             Immerse yourself in full-high-definition conceptual renderings and explore the sophisticated architecture and interior designs of Manora Residences.

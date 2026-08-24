@@ -26,14 +26,14 @@ export default function WoodlandsHero() {
         
         {/* Wellness Ecosystem Badge */}
         <div className="inline-flex items-center gap-2.5 border border-emerald-500/30 bg-blue-950/60 backdrop-blur-md px-5 py-2 rounded-full mb-8 shadow-xl animate-fade-in">
-          <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-          <span className="text-[10px] font-black uppercase tracking-[0.25em] text-emerald-300">
+          <span className="w-2 h-2 rounded-full bg-orange-500 animate-pulse"></span>
+          <span className="text-[10px] font-black uppercase tracking-[0.25em] text-orange-500">
             Premium Suburban Retreat
           </span>
         </div>
 
         {/* Brand Typography */}
-        <h1 className="text-5xl sm:text-7xl lg:text-8xl font-black text-white uppercase tracking-tighter mb-4 leading-none drop-shadow-md animate-slide-down">
+        <h1 className="text-5xl sm:text-7xl lg:text-8xl font-black text-[#b5d334] uppercase tracking-tighter mb-4 leading-none drop-shadow-md animate-slide-down">
           WOODLANDS
         </h1>
 
@@ -46,7 +46,7 @@ export default function WoodlandsHero() {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full sm:w-auto animate-fade-in-delayed-more">
           <Link
             href="#about-woodlands"
-            className="inline-flex items-center justify-center px-10 py-4 bg-orange-500 text-white font-bold uppercase tracking-widest text-xs rounded-full transition-all duration-300 hover:bg-orange-600 hover:-translate-y-1 shadow-lg shadow-orange-500/20 w-full sm:w-auto"
+            className="inline-flex items-center justify-center px-10 py-4 bg-[#b5d334] text-white font-bold uppercase tracking-widest text-xs rounded-full transition-all duration-300 hover:bg-orange-600 hover:-translate-y-1 shadow-lg shadow-orange-500/20 w-full sm:w-auto"
           >
             Explore The Retreat
           </Link>

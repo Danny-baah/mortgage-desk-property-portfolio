@@ -24,7 +24,7 @@ function PropertyCarousel({ images, propertyName }: CarouselProps) {
     <div className="relative w-full h-64 sm:h-72 bg-slate-200 overflow-hidden group">
       {/* Sold Out Premium Badge */}
       <div className="absolute top-4 left-4 z-20 bg-black/80 text-white font-black text-[10px] uppercase tracking-[0.2em] px-3 py-1.5 rounded flex items-center gap-2 backdrop-blur-md">
-        <span className="w-1.5 h-1.5 rounded-full bg-[#f82000]" />
+        <span className="w-1.5 h-1.5 rounded-full bg-orange-500" />
         Sold Out
       </div>
 
@@ -126,8 +126,8 @@ export default function GreenParkSoldOutGrid() {
         {/* Header */}
         <div className="text-center sm:text-left mb-16">
           <div className="inline-flex items-center gap-3 mb-4 justify-center sm:justify-start w-full">
-            <span className="w-8 h-px bg-[#f82000]" />
-            <span className="text-xs font-bold uppercase tracking-[0.2em] text-[#f82000]">
+            <span className="w-8 h-px bg-orange-500" />
+            <span className="text-xs font-bold uppercase tracking-[0.2em] text-orange-500">
               Previous Projects
             </span>
           </div>

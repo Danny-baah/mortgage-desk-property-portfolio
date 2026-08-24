@@ -81,14 +81,14 @@ export default function ForteGallery() {
           <div className="flex justify-center mb-4">
             <div className="inline-flex items-center gap-3">
               <span className="w-8 h-px bg-blue-950"></span>
-              <span className="text-sm font-bold uppercase tracking-[0.2em] text-blue-950">
+              <span className="text-sm font-bold uppercase tracking-[0.2em] text-orange-500">
                 Architecture & Design
               </span>
               <span className="w-8 h-px bg-blue-950"></span>
             </div>
           </div>
-          <h2 className="text-4xl sm:text-5xl font-black text-blue-950 uppercase tracking-tighter mb-6">
-            The Forte <span className="text-orange-500">Portfolio</span>
+          <h2 className="text-4xl sm:text-5xl font-black text-[#b5d334] uppercase tracking-tighter mb-6">
+            The Forte <span className="text-[#b5d334]">Portfolio</span>
           </h2>
           <p className="max-w-2xl mx-auto text-slate-600 font-light text-lg">
             Explore our architectural facades, meticulous interior treatments, and fluid, lifestyle-driven spaces.

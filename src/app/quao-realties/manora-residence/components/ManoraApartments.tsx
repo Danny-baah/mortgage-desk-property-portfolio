@@ -44,14 +44,10 @@ export default function ManoraApartments() {
   return (
     <section id="apartments" className="py-24 sm:py-32 bg-white relative overflow-hidden">
       
-      {/* Decorative Background Element */}
       <div className="absolute top-0 right-0 w-full h-px bg-gradient-to-r from-transparent via-slate-200 to-transparent"></div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        
-        {/* =========================================================
-            SECTION HEADER
-            ========================================================= */}
+      
         <div className="text-center mb-20 lg:mb-28">
           <div className="flex justify-center mb-4">
             <div className="inline-flex items-center gap-3">
@@ -62,17 +58,14 @@ export default function ManoraApartments() {
               <span className="w-8 h-px bg-orange-500"></span>
             </div>
           </div>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-blue-950 uppercase tracking-tight">
-            Exceptional <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-600">Living Spaces</span>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-[#b5d334] uppercase tracking-tight">
+            Exceptional <span className="text-[#b5d334]">Living Spaces</span>
           </h2>
           <p className="mt-6 text-base sm:text-lg text-slate-600 max-w-2xl mx-auto font-light">
             Discover thoughtfully designed interiors that maximize space, natural light, and modern elegance across a variety of floor plans.
           </p>
         </div>
 
-        {/* =========================================================
-            APARTMENTS ALTERNATING LIST
-            ========================================================= */}
         <div className="space-y-24 sm:space-y-32">
           {apartments.map((apt, index) => {
             // Determine if the layout should be reversed based on odd/even index
@@ -109,7 +102,7 @@ export default function ManoraApartments() {
                     0{index + 1}
                   </span>
 
-                  <h3 className="text-3xl sm:text-4xl font-black text-blue-950 uppercase tracking-tight mb-6 leading-tight">
+                  <h3 className="text-3xl sm:text-4xl font-black text-[#b5d334] uppercase tracking-tight mb-6 leading-tight">
                     {apt.title}
                   </h3>
 

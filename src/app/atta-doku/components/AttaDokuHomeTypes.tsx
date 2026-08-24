@@ -148,13 +148,13 @@ export default function AttaDokuHomeTypes() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 bg-blue-950/5 px-4 py-1.5 rounded-full mb-4 border border-blue-950/10">
+          <div className="inline-flex items-center gap-2 bg-[#b5d334]/15 px-4 py-1.5 rounded-full mb-4 border border-[#b5d334]/30">
             <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span>
-            <span className="text-xs font-bold uppercase tracking-widest text-blue-950">
+            <span className="text-xs font-bold uppercase tracking-widest text-orange-500">
               Curated Masterpieces
             </span>
           </div>
-          <h2 className="text-4xl sm:text-5xl font-black text-blue-950 tracking-tight mb-4 uppercase">
+          <h2 className="text-4xl sm:text-5xl font-black text-[#b5d334] tracking-tight mb-4 uppercase">
             Home Types
           </h2>
           <p className="text-base sm:text-lg text-slate-600 font-light">
@@ -172,8 +172,8 @@ export default function AttaDokuHomeTypes() {
                 onClick={() => handleModelChange(idx)}
                 className={`flex-1 text-center py-3 rounded-xl font-bold tracking-wide text-xs sm:text-sm uppercase transition-all duration-300 ${
                   modelIndex === idx
-                    ? "bg-blue-950 text-white shadow-md"
-                    : "text-slate-600 hover:text-blue-950 hover:bg-slate-50"
+                    ? "bg-[#b5d334] text-black shadow-md"
+                    : "text-slate-600 hover:text-black hover:bg-[#b5d334]/10"
                 }`}
               >
                 {model.name}
@@ -196,7 +196,7 @@ export default function AttaDokuHomeTypes() {
                 className="object-cover object-center transition-all duration-500"
               />
 
-              {/* Floating Image Label Identifier Overlay */}
+              {/* Floating Image Label Identifier Overlay - Kept blue as requested */}
               <div className="absolute top-4 left-4 bg-blue-950/90 text-white backdrop-blur-md px-3 py-1.5 rounded-lg text-[10px] font-bold uppercase tracking-wider shadow-md">
                 {currentModel.name} . View {slideIndex + 1} of{" "}
                 {currentModel.images.length}
@@ -205,7 +205,7 @@ export default function AttaDokuHomeTypes() {
               {/* Slider Arrow Controls Left / Right Nav vectors */}
               <button
                 onClick={prevSlide}
-                className="absolute left-4 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/95 text-blue-950 hover:bg-orange-500 hover:text-white rounded-full flex items-center justify-center shadow-lg transition-all duration-200 focus:outline-none"
+                className="absolute left-4 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/95 text-black hover:bg-[#b5d334] hover:text-black rounded-full flex items-center justify-center shadow-lg transition-all duration-200 focus:outline-none"
                 aria-label="Previous Slide"
               >
                 <svg
@@ -224,7 +224,7 @@ export default function AttaDokuHomeTypes() {
               </button>
               <button
                 onClick={nextSlide}
-                className="absolute right-4 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/95 text-blue-950 hover:bg-orange-500 hover:text-white rounded-full flex items-center justify-center shadow-lg transition-all duration-200 focus:outline-none"
+                className="absolute right-4 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/95 text-black hover:bg-[#b5d334] hover:text-black rounded-full flex items-center justify-center shadow-lg transition-all duration-200 focus:outline-none"
                 aria-label="Next Slide"
               >
                 <svg
@@ -283,7 +283,7 @@ export default function AttaDokuHomeTypes() {
               {/* Badge & Model Metadata */}
               <div className="flex items-center justify-between gap-4 border-b border-slate-200 pb-5 mb-5">
                 <div>
-                  <h3 className="text-2xl sm:text-3xl font-black text-blue-950 tracking-tight uppercase">
+                  <h3 className="text-2xl sm:text-3xl font-black text-black tracking-tight uppercase">
                     {currentModel.name}
                   </h3>
                   <p className="text-xs font-bold uppercase text-orange-600 tracking-wider mt-0.5">
@@ -294,20 +294,20 @@ export default function AttaDokuHomeTypes() {
                   <span className="text-[10px] uppercase font-bold tracking-widest text-slate-400 block">
                     Starting At
                   </span>
-                  <span className="text-2xl font-black text-blue-950 tracking-tight">
+                  <span className="text-2xl font-black text-[#b5d334] tracking-tight">
                     {currentModel.price}
                   </span>
                 </div>
               </div>
 
               {/* Area Dimension Label tag */}
-              <div className="inline-flex items-center gap-2 bg-blue-950 text-white px-3.5 py-1.5 rounded-lg text-xs font-bold tracking-wider mb-5">
+              <div className="inline-flex items-center gap-2 bg-[#b5d334] text-black px-3.5 py-1.5 rounded-lg text-xs font-bold tracking-wider mb-5">
                 <svg
-                  className="w-3.5 h-3.5 text-orange-400"
+                  className="w-3.5 h-3.5 text-orange-600"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
-                  strokeWidth={2}
+                  strokeWidth={2.5}
                 >
                   <path
                     strokeLinecap="round"
@@ -324,7 +324,7 @@ export default function AttaDokuHomeTypes() {
               </p>
 
               {/* Features Bullet layout grid */}
-              <h4 className="text-xs font-bold uppercase tracking-widest text-blue-950 mb-3.5">
+              <h4 className="text-xs font-bold uppercase tracking-widest text-black mb-3.5">
                 Premium Core Inclusions:
               </h4>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-8">
@@ -357,7 +357,7 @@ export default function AttaDokuHomeTypes() {
             <div className="border-t border-slate-200 pt-6 mt-4">
               <Link
                 href="#register"
-                className="w-full bg-blue-950 text-white hover:bg-orange-600 font-bold tracking-wide text-xs uppercase py-4 rounded-xl shadow-md transition-all duration-300 flex items-center justify-center gap-2.5 group text-center block"
+                className="w-full bg-[#b5d334] text-black hover:bg-black hover:text-[#b5d334] font-bold tracking-wide text-xs uppercase py-4 rounded-xl shadow-md transition-all duration-300 flex items-center justify-center gap-2.5 group text-center block"
               >
                 <span>Reserve {currentModel.name} Unit</span>
                 <svg

@@ -61,17 +61,14 @@ export default function AutographApartments() {
               <span className="w-8 h-px bg-orange-500"></span>
             </div>
           </div>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-blue-950 uppercase tracking-tight">
-            Curated <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-600">Living Spaces</span>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-[#b5d334] uppercase tracking-tight">
+            Curated <span className="text-[#b5d334]">Living Spaces</span>
           </h2>
           <p className="mt-6 text-base sm:text-lg text-slate-600 max-w-2xl mx-auto font-light">
             Explore a range of sophisticated residential options from modern studios to ultra-exclusive top-floor collections, built around graceful architecture.
           </p>
         </div>
 
-        {/* =========================================================
-            APARTMENTS ALTERNATING LIST
-            ========================================================= */}
         <div className="space-y-24 sm:space-y-32">
           {apartments.map((apt, index) => {
             const isReversed = index % 2 !== 0;
@@ -107,7 +104,7 @@ export default function AutographApartments() {
                     0{index + 1}
                   </span>
 
-                  <h3 className="text-3xl sm:text-4xl font-black text-blue-950 uppercase tracking-tight mb-6 leading-tight">
+                  <h3 className="text-3xl sm:text-4xl font-black text-[#b5d334] uppercase tracking-tight mb-6 leading-tight">
                     {apt.title}
                   </h3>
 

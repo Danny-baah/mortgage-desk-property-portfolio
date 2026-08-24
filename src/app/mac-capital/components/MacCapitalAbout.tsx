@@ -33,21 +33,19 @@ export default function MacCapitalAbout() {
             </div>
           </div>
 
-          {/* =========================================================
-             RIGHT SIDE: Property Description & Details
-             ========================================================= */}
+        
           <div className="flex flex-col">
             
             <div className="flex items-center gap-3 mb-4">
               <span className="w-8 h-px bg-blue-900"></span>
-              <span className="text-sm font-bold uppercase tracking-[0.2em] text-blue-900">
+              <span className="text-sm font-bold uppercase tracking-[0.2em] text-orange-500">
                 The Property
               </span>
             </div>
             
-            <h2 className="text-4xl md:text-5xl font-black text-blue-950 mb-6 leading-tight tracking-tight">
+            <h2 className="text-4xl md:text-5xl font-black text-[#b5d334] mb-6 leading-tight tracking-tight">
               Modern Living Meets <br/>
-              <span className="text-orange-500">Suburban Charm.</span>
+              <span className="text-[#b5d334]">Suburban Charm.</span>
             </h2>
             
             {/* Context from PDF */}
@@ -60,7 +58,7 @@ export default function MacCapitalAbout() {
               </p>
             </div>
 
-            {/* Key Features Grid (Extracted from PDF) */}
+            
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
               
               {/* Feature 1 */}

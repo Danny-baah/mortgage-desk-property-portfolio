@@ -110,9 +110,9 @@ export default function PelicanResidences() {
               <span className="w-8 h-px bg-orange-500"></span>
             </div>
           </div>
-          <h2 className="text-4xl sm:text-5xl font-black text-blue-950 uppercase tracking-tighter mb-6">
+          <h2 className="text-4xl sm:text-5xl font-black text-[#b5d334] uppercase tracking-tighter mb-6">
             Rooms, Suites & <br />
-            <span className="text-orange-500">Private Havens</span>
+            <span className="text-[#b5d334]">Private Havens</span>
           </h2>
           <p className="max-w-2xl mx-auto text-slate-600 font-light text-lg">
             Discover precision space layouts engineered with international five-star sophistication and tailored functional design.
@@ -188,7 +188,7 @@ export default function PelicanResidences() {
                     </span>
                   </div>
 
-                  <h3 className="text-3xl sm:text-4xl font-black text-blue-950 uppercase tracking-tight mb-2 leading-none">
+                  <h3 className="text-3xl sm:text-4xl font-black text-[#b5d334] uppercase tracking-tight mb-2 leading-none">
                     {suite.name}
                   </h3>
                   
@@ -219,7 +219,7 @@ export default function PelicanResidences() {
                   <div>
                     <Link
                       href="/register"
-                      className="inline-flex items-center justify-center px-8 py-4 bg-blue-950 text-white rounded-full font-bold uppercase tracking-widest text-xs transition-all duration-300 hover:bg-orange-500 shadow-xl shadow-blue-950/10 hover:shadow-orange-500/30"
+                      className="inline-flex items-center justify-center px-8 py-4 bg-[#b5d334] text-white rounded-full font-bold uppercase tracking-widest text-xs transition-all duration-300 hover:bg-orange-500 shadow-xl shadow-blue-950/10 hover:shadow-orange-500/30"
                     >
                       <span>Reserve Allocation</span>
                       <svg className="w-4 h-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>

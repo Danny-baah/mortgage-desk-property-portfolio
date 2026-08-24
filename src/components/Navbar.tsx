@@ -96,13 +96,13 @@ export default function Navbar() {
                     Mac Capital
                   </Link>
                   <Link 
-                    href="/peregrino-properties" 
+                    href="/peregrino" 
                     className="px-5 py-3 text-sm font-bold text-black hover:bg-[#b5d334] hover:text-white transition-colors border-b border-gray-100"
                   >
                     Peregrino Properties
                   </Link>
                   <Link 
-                    href="/atta-doku-meadows" 
+                    href="/atta-doku" 
                     className="px-5 py-3 text-sm font-bold text-black hover:bg-[#b5d334] hover:text-white transition-colors border-b border-gray-100"
                   >
                     Atta-Doku Meadows
@@ -112,6 +112,18 @@ export default function Navbar() {
                     className="px-5 py-3 text-sm font-bold text-black hover:bg-[#b5d334] hover:text-white transition-colors"
                   >
                     Royal Kingdom
+                  </Link>
+                   <Link 
+                    href="/greenpark" 
+                    className="px-5 py-3 text-sm font-bold text-black hover:bg-[#b5d334] hover:text-white transition-colors border-b border-gray-100"
+                  >
+                    GreenPark
+                  </Link>
+                   <Link 
+                    href="/shelter-mart" 
+                    className="px-5 py-3 text-sm font-bold text-black hover:bg-[#b5d334] hover:text-white transition-colors border-b border-gray-100"
+                  >
+                    Shelter Mart
                   </Link>
                 </div>
               </div>

@@ -25,8 +25,8 @@ export default function GreenParkHero() {
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 w-full text-center flex flex-col items-center">
         {/* Established Badge */}
         <div className="inline-flex items-center gap-2.5 border border-white/20 bg-white/5 backdrop-blur-md px-5 py-2 rounded-full mb-8 shadow-xl">
-          <span className="w-2 h-2 rounded-full bg-[#b5d334]"></span>
-          <span className="text-[10px] font-black uppercase tracking-[0.25em] text-white">
+          <span className="w-2 h-2 rounded-full bg-orange-500"></span>
+          <span className="text-[10px] font-black uppercase tracking-[0.25em] text-orange-500">
             10+ Years Experience
           </span>
         </div>

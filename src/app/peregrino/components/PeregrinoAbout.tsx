@@ -30,15 +30,14 @@ export default function PeregrinoAbout() {
             <div className="absolute top-0 left-12 w-24 h-1.5 bg-orange-500 rounded-b-md"></div>
 
             <div className="flex items-center gap-3 mb-4 pt-4">
-              <span className="text-xs font-black uppercase tracking-[0.25em] text-slate-400">
+              <span className="text-xs font-black uppercase tracking-[0.25em] text-orange-500">
                 About the development
               </span>
             </div>
 
-            <h2 className="text-3xl md:text-4xl font-black text-blue-950 mb-8 leading-tight tracking-tight">
+            <h2 className="text-3xl md:text-4xl font-black text-[#b5d334] mb-8 leading-tight tracking-tight">
               Built for comfort and <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-amber-500">
-                everyday living.
+              <span className="text-[#b5d334]">                everyday living.
               </span>
             </h2>
 

@@ -68,10 +68,7 @@ export default function ManoraGallery() {
       <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-slate-200 to-transparent"></div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        
-        {/* =========================================================
-            SECTION HEADER
-            ========================================================= */}
+       
         <div className="text-center mb-16 lg:mb-20">
           <div className="flex justify-center mb-4">
             <div className="inline-flex items-center gap-3">
@@ -82,8 +79,8 @@ export default function ManoraGallery() {
               <span className="w-8 h-px bg-orange-500"></span>
             </div>
           </div>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-blue-950 uppercase tracking-tight">
-            Manora <span className="text-orange-500">Gallery</span>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-[#b5d334] uppercase tracking-tight">
+            Manora <span className="text-[#b5d334]">Gallery</span>
           </h2>
           <p className="mt-6 text-base sm:text-lg text-slate-600 max-w-2xl mx-auto font-light">
             Immerse yourself in full-high-definition conceptual renderings and explore the sophisticated architecture and interior designs of Manora Residences.

@@ -34,12 +34,12 @@ export default function AddressReturns() {
               </span>
             </div>
 
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-blue-950 uppercase tracking-tighter mb-6 leading-none">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-[#b5d334] uppercase tracking-tighter mb-6 leading-none">
               Three Towers <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-900 to-blue-950 font-light">
+              <span className="text-[#b5d334]">
                 Serving as a Powerful Vehicle for
               </span> <br />
-              <span className="text-blue-950">Lasting Returns</span>
+              <span className="text-[#b5d334]">Lasting Returns</span>
             </h2>
 
             <p className="text-slate-600 font-light text-base sm:text-lg leading-relaxed mb-10">
@@ -57,7 +57,7 @@ export default function AddressReturns() {
                     0{idx + 1}
                   </div>
                   <div>
-                    <h4 className="text-sm font-black text-blue-950 uppercase tracking-tight mb-1">
+                    <h4 className="text-sm font-black text-[#b5d334] uppercase tracking-tight mb-1">
                       {pillar.type}
                     </h4>
                     <p className="text-xs sm:text-sm text-slate-500 font-light leading-relaxed">

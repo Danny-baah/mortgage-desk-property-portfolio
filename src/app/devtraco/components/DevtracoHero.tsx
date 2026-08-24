@@ -78,7 +78,7 @@ export default function DevtracoHero() {
 
         {/* Dynamic Looping Typewriter Subheading */}
         <div className="typewriter inline-block mb-6 max-w-full">
-          <h2 className="text-3xl sm:text-4xl md:text-6xl font-black text-white leading-tight drop-shadow-lg">
+          <h2 className="text-3xl sm:text-4xl md:text-6xl font-black text-[#b5d334] leading-tight drop-shadow-lg">
             Luxury Living, Perfected.
           </h2>
         </div>
@@ -107,7 +107,7 @@ export default function DevtracoHero() {
           {/* Primary CTA */}
           <Link
             href="/register"
-            className="group inline-flex items-center justify-center w-full sm:w-auto px-8 py-3.5 text-white bg-blue-900 rounded-full font-bold text-base transition-all duration-300 hover:bg-orange-500 shadow-xl hover:shadow-orange-500/40 hover:-translate-y-1 border border-blue-800 hover:border-orange-400"
+            className="group inline-flex items-center justify-center w-full sm:w-auto px-8 py-3.5 text-white bg-[#b5d334] rounded-full font-bold text-base transition-all duration-300 hover:bg-orange-500 shadow-xl hover:shadow-orange-500/40 hover:-translate-y-1 border border-blue-800 hover:border-orange-400"
           >
             Begin Your Journey
             <svg 

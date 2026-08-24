@@ -33,25 +33,22 @@ export default function WoodlandsAmenities() {
         <div className="text-center mb-16 max-w-2xl mx-auto">
           <div className="flex justify-center mb-4">
             <div className="inline-flex items-center gap-3">
-              <span className="w-8 h-px bg-emerald-600"></span>
-              <span className="text-sm font-bold uppercase tracking-[0.2em] text-emerald-600">
+              <span className="w-8 h-px bg-orange-500"></span>
+              <span className="text-sm font-bold uppercase tracking-[0.2em] text-orange-500">
                 Ecosystem Master Plan
               </span>
-              <span className="w-8 h-px bg-emerald-600"></span>
+              <span className="w-8 h-px bg-orange-500"></span>
             </div>
           </div>
-          <h2 className="text-4xl sm:text-5xl font-black text-blue-950 uppercase tracking-tighter mb-6">
+          <h2 className="text-4xl sm:text-5xl font-black text-[#b5d334] uppercase tracking-tighter mb-6">
             A Self-Sustaining <br />
-            <span className="text-orange-500">Community</span>
+            <span className="text-[#b5d334]">Community</span>
           </h2>
           <p className="text-slate-600 font-light text-lg">
             Every facility has been integrated into the natural landscape to support your well-being, recreation, and everyday convenience.
           </p>
         </div>
 
-        {/* =========================================================
-            AMENITIES MASONRY/GRID
-            ========================================================= */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
           {amenitiesData.map((amenity, idx) => (
             <div 

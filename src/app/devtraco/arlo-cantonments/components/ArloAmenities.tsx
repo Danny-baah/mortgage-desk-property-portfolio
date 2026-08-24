@@ -63,9 +63,9 @@ export default function ArloAmenities() {
               <span className="w-8 h-px bg-orange-500"></span>
             </div>
           </div>
-          <h2 className="text-4xl sm:text-5xl font-black text-blue-950 uppercase tracking-tighter mb-6">
+          <h2 className="text-4xl sm:text-5xl font-black text-[#b5d334] uppercase tracking-tighter mb-6">
             A Tiered Lifestyle <br className="hidden sm:block" />
-            <span className="text-orange-500">Experience</span>
+            <span className="text-[#b5d334]">Experience</span>
           </h2>
           <p className="max-w-2xl mx-auto text-slate-600 font-light text-lg">
             Deliberately designed spaces spread across strategic levels, ensuring that whether you are working, relaxing, or entertaining, perfection is only an elevator ride away.
@@ -80,10 +80,10 @@ export default function ArloAmenities() {
               {/* Floor Header Info */}
               <div className="flex flex-col md:flex-row md:items-end justify-between border-b-2 border-blue-950 pb-6 mb-10 gap-4">
                 <div>
-                  <span className="inline-block px-4 py-1.5 bg-blue-950 text-white text-xs font-bold uppercase tracking-widest rounded-full mb-3">
+                  <span className="inline-block px-4 py-1.5 bg-orange-500 text-white text-xs font-bold uppercase tracking-widest rounded-full mb-3">
                     {floor.level}
                   </span>
-                  <h3 className="text-2xl sm:text-3xl font-black text-blue-950 uppercase tracking-tight">
+                  <h3 className="text-2xl sm:text-3xl font-black text-[#b5d334] uppercase tracking-tight">
                     {floor.title}
                   </h3>
                 </div>

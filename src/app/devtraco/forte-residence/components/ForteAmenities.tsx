@@ -42,8 +42,8 @@ export default function ForteAmenities() {
               <span className="w-8 h-px bg-orange-500"></span>
             </div>
           </div>
-          <h2 className="text-4xl sm:text-5xl font-black text-blue-950 uppercase tracking-tighter mb-6">
-            Essential <span className="text-orange-500">Comforts</span>
+          <h2 className="text-4xl sm:text-5xl font-black text-[#b5d334] uppercase tracking-tighter mb-6">
+            Essential <span className="text-[#b5d334]">Comforts</span>
           </h2>
           <p className="max-w-2xl mx-auto text-slate-600 font-light text-lg">
             Every day within Forte is elevated by shared family provisions curated for unparalleled convenience, health, and leisure.
@@ -78,7 +78,7 @@ export default function ForteAmenities() {
                 {/* Corner Accent Line */}
                 <div className="absolute top-0 left-0 w-12 h-1 bg-orange-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
 
-                <h3 className="text-xl font-black text-blue-950 uppercase tracking-tight mb-3">
+                <h3 className="text-xl font-black text-[#b5d334] uppercase tracking-tight mb-3">
                   {amenity.name}
                 </h3>
                 

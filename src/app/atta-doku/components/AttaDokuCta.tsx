@@ -1,85 +1,83 @@
-import Link from 'next/link';
-import Image from 'next/image';
+"use client";
+
+import Link from "next/link";
 
 export default function CTA() {
   return (
-    <section className="pt-20 lg:pt-32 pb-6 lg:pb-12 bg-white relative px-4 sm:px-6 lg:px-8 overflow-hidden">
-      
-      {/* Custom CSS for the zoom/pulse animation on the text.
-        Toned down to scale(1.03) over 5 seconds for a subtle, professional feel.
-      */}
-      <style dangerouslySetInnerHTML={{ __html: `
-        @keyframes zoom-pulse {
-          0%, 100% { transform: scale(1); opacity: 1; }
-          50% { transform: scale(1.03); opacity: 0.98; }
-        }
-        .animate-zoom-pulse {
-          animation: zoom-pulse 5s ease-in-out infinite;
-          display: inline-block;
-          transform-origin: center left;
-        }
-      ` }} />
-
-      <div className="max-w-7xl mx-auto relative rounded-3xl overflow-hidden shadow-2xl bg-blue-900">
-        
-        {/* Background Decorative Elements */}
-        <div className="absolute top-0 right-0 -mt-20 -mr-20 w-80 h-80 bg-blue-800 rounded-full blur-3xl opacity-50"></div>
-        <div className="absolute bottom-0 left-0 -mb-20 -ml-20 w-72 h-72 bg-orange-500 rounded-full blur-3xl opacity-20"></div>
-
-        <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
-          
-          {/* LEFT SIDE: Content */}
-          <div className="relative z-10 p-10 sm:p-16 lg:p-20 flex flex-col justify-center">
-            <div className="flex items-center gap-3 mb-6">
-              <span className="h-px w-8 bg-orange-500"></span>
-              <span className="text-sm font-bold uppercase tracking-[0.15em] text-orange-400">
-                Take The Next Step
-              </span>
-            </div>
-            
-            {/* The animating headline */}
-            <h2 className="text-4xl sm:text-5xl font-black text-white leading-tight mb-6 animate-zoom-pulse drop-shadow-md">
-              Interested in purchasing Atta Doku property?
-            </h2>
-            
-            <p className="text-lg text-blue-100 leading-relaxed mb-10 max-w-lg font-light">
-              Our dedicated Mortgage Specialists are on standby to guide you through our premium developer portfolio and tailor a financing plan that perfectly fits your lifestyle.
-            </p>
-            
-            <div>
-              <Link 
-                href="/contact" 
-                className="group inline-flex items-center justify-center px-8 py-4 text-base font-bold text-white transition-all duration-300 bg-orange-500 rounded-full hover:bg-orange-600 shadow-lg hover:shadow-orange-500/30 hover:-translate-y-1"
-              >
-                Contact Our Team
-                <svg 
-                  className="w-5 h-5 ml-2 -mr-1 transform transition-transform duration-300 group-hover:translate-x-1" 
-                  fill="none" 
-                  viewBox="0 0 24 24" 
-                  stroke="currentColor" 
-                  strokeWidth={2.5}
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-                </svg>
-              </Link>
-            </div>
-          </div>
-
-          {/* RIGHT SIDE: Image */}
-          <div className="relative h-64 sm:h-80 lg:h-full min-h-[400px] w-full hidden sm:block overflow-hidden">
-            {/* NEW IMAGE: Close-up professional handshake (No faces visible).
-              Since we whitelisted Unsplash earlier, this loads automatically.
-            */}
-            <Image 
-              src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" 
-              alt="Close-up of professional handshake representing agreement" 
-              fill
-              className="object-cover object-center" 
+    // Outer wrapper adds the "margins all around" effect so it doesn't touch the screen edges
+    <section className="py-12 sm:py-20 px-4 sm:px-8 lg:px-12 w-full bg-slate-50">
+      {/* Floating Green Background Container - scaled down to be "cute" */}
+      <div className="max-w-4xl mx-auto bg-[#b5d334] rounded-[3rem] p-4 sm:p-6 lg:p-8 relative shadow-2xl overflow-hidden group">
+        {/* Subtle pattern on the green background */}
+        <div className="absolute inset-0 opacity-10 mix-blend-overlay pointer-events-none">
+          <svg
+            width="40"
+            height="40"
+            viewBox="0 0 40 40"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M20 20.5V18H0v-2h20v-2.5L22.5 16 25 13.5V0h2v13.5L29.5 16l2.5-2.5V0h2v13.5L36.5 16l2.5-2.5V0h2v15h-2v-2.5L36.5 15l-2.5 2.5V20h2v-2h20v2H20v2.5L17.5 25l-2.5 2.5V40h-2V26.5L10.5 24 8 26.5V40H6V26.5L3.5 24 1 26.5V40H-1V25h2v2.5L3.5 25l2.5-2.5V20H0v-2h20v2.5z"
+              fill="#ffffff"
+              fillRule="evenodd"
             />
-            {/* Gradient overlay to blend the image smoothly into the blue background on the left */}
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-900 via-blue-900/50 to-transparent"></div>
+          </svg>
+        </div>
+
+        {/* Inner White Card */}
+        <div className="bg-white rounded-[2.5rem] p-8 sm:p-12 text-center relative z-10 transform transition-transform duration-500 group-hover:scale-[1.01] shadow-lg">
+          {/* Cute Orange Badge */}
+          <div className="inline-flex items-center gap-2 mb-6 bg-orange-50 px-4 py-1.5 rounded-full border border-orange-100">
+            <span className="w-2 h-2 rounded-full bg-orange-500 animate-pulse"></span>
+            <span className="text-[10px] font-black uppercase tracking-widest text-orange-600">
+              Let's Talk
+            </span>
           </div>
 
+          {/* Centered Heading */}
+          <h2 className="text-3xl sm:text-4xl font-black text-slate-900 uppercase tracking-tight mb-4">
+            Ready to Secure <br className="hidden sm:block" />
+            <span className="text-[#b5d334]">Your Future?</span>
+          </h2>
+
+          {/* Compact Text */}
+          <p className="text-slate-500 text-sm sm:text-base max-w-lg mx-auto mb-10 leading-relaxed">
+            Take the first step towards owning your dream property. Whether it's
+            a luxury home or a serviced plot, we are here to help you every step
+            of the way.
+          </p>
+
+          {/* Buttons Container */}
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            {/* Contact Button */}
+            <Link
+              href="/contact"
+              className="w-full sm:w-auto px-8 py-3.5 bg-slate-100 text-slate-700 font-black uppercase tracking-widest text-xs rounded-xl transition-all duration-300 hover:bg-slate-200 hover:text-slate-900 hover:-translate-y-1 shadow-sm"
+            >
+              Contact Us
+            </Link>
+
+            {/* Register Button */}
+            <Link
+              href="/register"
+              className="w-full sm:w-auto px-8 py-3.5 bg-orange-500 text-white font-black uppercase tracking-widest text-xs rounded-xl transition-all duration-300 hover:bg-orange-600 hover:-translate-y-1 shadow-lg shadow-orange-500/30 flex items-center justify-center gap-2"
+            >
+              Register Now
+              <svg
+                className="w-4 h-4"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M14 5l7 7m0 0l-7 7m7-7H3"
+                />
+              </svg>
+            </Link>
+          </div>
         </div>
       </div>
     </section>

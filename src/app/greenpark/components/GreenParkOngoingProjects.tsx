@@ -175,11 +175,11 @@ export default function GreenParkOngoingProjects() {
         {/* Header Section */}
         <div className="text-center mb-20">
           <div className="inline-flex items-center gap-3 mb-4 justify-center w-full">
-            <span className="w-8 h-px bg-[#f82000]" />
-            <span className="text-xs font-bold uppercase tracking-[0.2em] text-[#f82000]">
+            <span className="w-8 h-px bg-orange-500" />
+            <span className="text-xs font-bold uppercase tracking-[0.2em] text-orange-500">
               Current & Ongoing
             </span>
-            <span className="w-8 h-px bg-[#f82000]" />
+            <span className="w-8 h-px bg-orange-500" />
           </div>
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black text-[#b5d334] uppercase tracking-tighter">
             Now Selling
@@ -249,7 +249,7 @@ export default function GreenParkOngoingProjects() {
                     <p className="text-sm font-semibold text-slate-900 mb-1">
                       {project.inventory}
                     </p>
-                    <p className="text-2xl font-black text-[#f82000]">
+                    <p className="text-2xl font-black text-blue-950">
                       {project.price}
                     </p>
                   </div>
@@ -279,7 +279,7 @@ export default function GreenParkOngoingProjects() {
                     ))}
                   </ul>
 
-                  {/* Actions (Enquire Now Button is now explicitly orange #f82000 with white text) */}
+                 
                   <div className="flex flex-col sm:flex-row gap-4">
                     <button className="px-8 py-4 bg-[#b5d334] text-white font-bold rounded text-xs uppercase tracking-widest hover:bg-[#d61c00] hover:scale-105 transition-all shadow-lg shadow-[#f82000]/30 w-full sm:w-auto">
                       Enquire Now

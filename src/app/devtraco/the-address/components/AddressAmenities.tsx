@@ -45,8 +45,8 @@ export default function AddressAmenities() {
               <span className="w-8 h-px bg-orange-500"></span>
             </div>
           </div>
-          <h2 className="text-4xl sm:text-5xl font-black text-blue-950 uppercase tracking-tighter mb-6">
-            Asset <span className="text-orange-500">Classifications</span>
+          <h2 className="text-4xl sm:text-5xl font-black text-[#b5d334] uppercase tracking-tighter mb-6">
+            Asset <span className="text-[#b5d334]">Classifications</span>
           </h2>
           <p className="max-w-2xl mx-auto text-slate-600 font-light text-lg">
             Choose from three tailored real estate configurations, each designed to maximize lifestyle comfort and long-term capital appreciation.

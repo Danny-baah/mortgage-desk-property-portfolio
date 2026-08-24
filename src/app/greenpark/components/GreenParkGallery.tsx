@@ -223,11 +223,11 @@ export default function GreenParkGallery() {
         {/* Header Section */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center gap-3 mb-4 justify-center w-full">
-            <span className="w-8 h-px bg-[#f82000]" />
-            <span className="text-xs font-bold uppercase tracking-[0.2em] text-[#f82000]">
+            <span className="w-8 h-px bg-orange-500" />
+            <span className="text-xs font-bold uppercase tracking-[0.2em] text-orange-500">
               Visual Portfolio
             </span>
-            <span className="w-8 h-px bg-[#f82000]" />
+            <span className="w-8 h-px bg-orange-500" />
           </div>
           <h2 className="text-4xl sm:text-5xl font-black text-slate-900 uppercase tracking-tighter">
             Our Architectural <span className="text-[#b5d334]">Gallery</span>
@@ -248,7 +248,7 @@ export default function GreenParkGallery() {
                 onClick={() => setActiveFilter(category.id)}
                 className={`px-6 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider transition-all duration-300 ${
                   isActive
-                    ? "bg-[#f82000] text-white shadow-lg shadow-[#f82000]/20"
+                    ? "bg-orange-500 text-white shadow-lg shadow-orange-500/20"
                     : "bg-slate-100 text-slate-600 hover:bg-slate-200 hover:text-slate-900"
                 }`}
               >

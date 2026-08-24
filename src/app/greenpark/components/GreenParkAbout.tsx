@@ -17,8 +17,8 @@ export default function GreenParkAbout() {
           <div>
             {/* Company Profile Subheading */}
             <div className="inline-flex items-center gap-3 mb-6">
-              <span className="w-10 h-px bg-[#f82000]"></span>
-              <span className="text-xs font-bold uppercase tracking-[0.2em] text-[#f82000]">
+              <span className="w-10 h-px bg-orange-500"></span>
+              <span className="text-xs font-bold uppercase tracking-[0.2em] text-orange-500">
                 Who We Are
               </span>
             </div>
@@ -32,7 +32,7 @@ export default function GreenParkAbout() {
             {/* Paragraph text sourced from PDF */}
             <div className="space-y-6 text-slate-600 font-light text-base sm:text-lg leading-relaxed mb-10">
               <p>
-                <strong className="font-semibold text-slate-900">
+                <strong className="font-semibold text-blue-950">
                   GreenPark Properties Limited
                 </strong>{" "}
                 is an Accra-based residential development company with 10+ years
@@ -50,7 +50,7 @@ export default function GreenParkAbout() {
                 that add lasting value. We are committed to generating
                 sustainable income for investors while developing the right
                 products for customers—
-                <strong className="font-semibold text-slate-900">
+                <strong className="font-semibold text-blue-950">
                   excellence in every brick we lay.
                 </strong>
               </p>
@@ -59,7 +59,7 @@ export default function GreenParkAbout() {
             {/* Core Stats - Balanced Brand Colors */}
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-6 pt-8 border-t border-slate-100">
               <div>
-                <span className="block text-3xl font-black text-slate-900">
+                <span className="block text-3xl font-black text-blue-950">
                   10+
                 </span>
                 <span className="block text-[10px] font-bold uppercase tracking-wider text-slate-400 mt-1">
@@ -68,7 +68,7 @@ export default function GreenParkAbout() {
               </div>
               <div>
                 {/* Secondary color used for high-impact metric */}
-                <span className="block text-3xl font-black text-[#f82000]">
+                <span className="block text-3xl font-black text-orange-500">
                   Zero
                 </span>
                 <span className="block text-[10px] font-bold uppercase tracking-wider text-slate-400 mt-1">

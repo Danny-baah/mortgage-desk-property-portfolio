@@ -27,13 +27,13 @@ export default function AddressHero() {
         {/* Location & Investment Badge */}
         <div className="inline-flex items-center gap-2 border border-orange-500/40 bg-blue-950/50 backdrop-blur-md px-5 py-2 rounded-full mb-8 shadow-2xl animate-fade-in">
           <span className="w-2 h-2 rounded-full bg-orange-500 animate-pulse"></span>
-          <span className="text-[10px] font-black uppercase tracking-[0.3em] text-white">
+          <span className="text-[10px] font-black uppercase tracking-[0.3em] text-orange-500">
             Roman Ridge, Accra
           </span>
         </div>
 
         {/* Hero Typography */}
-        <h1 className="text-5xl sm:text-7xl lg:text-8xl font-black text-white uppercase tracking-tighter mb-6 leading-none flex flex-col items-center drop-shadow-lg">
+        <h1 className="text-5xl sm:text-7xl lg:text-8xl font-black text-[#b5d334] uppercase tracking-tighter mb-6 leading-none flex flex-col items-center drop-shadow-lg">
           <span className="animate-slide-down inline-block tracking-tight">
             THE ADDRESS
           </span>
@@ -46,7 +46,7 @@ export default function AddressHero() {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full sm:w-auto animate-fade-in-delayed-more">
           <Link
             href="#about-address"
-            className="inline-flex items-center justify-center px-10 py-4 bg-orange-500 text-white font-bold uppercase tracking-widest text-xs rounded-full transition-all duration-300 hover:bg-orange-600 hover:-translate-y-1 shadow-xl shadow-orange-500/20 w-full sm:w-auto"
+            className="inline-flex items-center justify-center px-10 py-4 bg-[#b5d334] text-white font-bold uppercase tracking-widest text-xs rounded-full transition-all duration-300 hover:bg-orange-600 hover:-translate-y-1 shadow-xl shadow-orange-500/20 w-full sm:w-auto"
           >
             Discover The Towers
           </Link>

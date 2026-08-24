@@ -80,7 +80,7 @@ export default function AboutDevtraco() {
             {/* BUTTON SITUATED DIRECTLY BENEATH THE IMAGES (Slides from Left) */}
             <Link 
               href="#contact-access-bank" 
-              className="animate-slide-from-left inline-flex items-center justify-center px-8 py-4 text-white bg-orange-500 rounded-full font-bold text-base transition-all duration-300 hover:bg-blue-900 shadow-xl shadow-orange-500/20 hover:-translate-y-1 self-start group ml-2"
+              className="animate-slide-from-left inline-flex items-center justify-center px-8 py-4 text-white bg-[#b5d334] rounded-full font-bold text-base transition-all duration-300 hover:bg-orange-500 shadow-xl shadow-orange-500/20 hover:-translate-y-1 self-start group ml-2"
             >
               Contact Access Bank
               <svg 
@@ -104,16 +104,16 @@ export default function AboutDevtraco() {
             {/* Header Tag */}
             <div className="flex items-center gap-3 mb-4">
               <span className="h-px w-8 bg-blue-900"></span>
-              <span className="text-sm font-bold uppercase tracking-[.15em] text-blue-900">
+              <span className="text-sm font-bold uppercase tracking-[.15em] text-orange-500">
                 The Developer
               </span>
             </div>
 
-            <h2 className="text-4xl md:text-5xl font-black text-blue-900 leading-tight tracking-tight mb-8">
+            <h2 className="text-4xl md:text-5xl font-black text-[#b5d334] leading-tight tracking-tight mb-8">
               Three Decades of <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-900 to-blue-700">
-                Building Excellence
-              </span>
+             <span className="text-[#b5d334]">
+                 Building Excellence
+             </span>
             </h2>
 
             {/* Main Text Copy */}
@@ -142,7 +142,7 @@ export default function AboutDevtraco() {
               {/* Returns Box */}
               <div className="flex items-center gap-6 p-5 bg-white rounded-2xl border border-slate-100 shadow-sm">
                  <div className="flex flex-col text-center">
-                    <span className="text-5xl font-black text-orange-500">12<span className="text-3xl">%</span></span>
+                    <span className="text-5xl font-black text-[#b5d334]">12<span className="text-3xl">%</span></span>
                     <span className="text-xs font-bold uppercase tracking-wider text-blue-900 mt-1">ROI (USD)</span>
                  </div>
                  <p className="text-sm text-slate-600 flex-1">

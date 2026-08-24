@@ -60,9 +60,9 @@ export default function PelicanAmenities() {
               World-Class Provisions
             </span>
           </div>
-          <h2 className="text-4xl sm:text-5xl font-black text-blue-950 uppercase tracking-tighter mb-6">
+          <h2 className="text-4xl sm:text-5xl font-black text-[#b5d334] uppercase tracking-tighter mb-6">
             Guest Amenities & <br />
-            <span className="text-orange-500">Elite Operations</span>
+            <span className="text-[#b5d334]">Elite Operations</span>
           </h2>
           <p className="text-slate-600 font-light text-lg sm:text-xl leading-relaxed">
             Engineered to accommodate corporate parameters and high-end leisure fluidly. Explore the full suite of guest infrastructure at The Pelican.
@@ -105,7 +105,7 @@ export default function PelicanAmenities() {
                 {/* Minimalist Top Bar Interactive Border */}
                 <div className="absolute top-0 left-0 w-full h-0.5 bg-orange-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
 
-                <h3 className="text-xl font-black text-blue-950 uppercase tracking-tight mb-3 group-hover:text-orange-500 transition-colors duration-300">
+                <h3 className="text-xl font-black text-[#b5d334] uppercase tracking-tight mb-3 group-hover:text-orange-500 transition-colors duration-300">
                   {amenity.title}
                 </h3>
                 

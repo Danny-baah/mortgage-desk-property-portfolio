@@ -45,9 +45,9 @@ export default function QuaoResidences() {
               <span className="w-8 h-px bg-orange-500"></span>
             </div>
           </div>
-          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black text-blue-950 uppercase tracking-tight">
+          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black text-[#b5d334] uppercase tracking-tight">
             Our{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-600">
+            <span className="text-[#b5d334]">
               Residences
             </span>
           </h2>
@@ -107,7 +107,7 @@ export default function QuaoResidences() {
 
               {/* Content Container */}
               <div className="p-8 sm:p-10 flex flex-col flex-grow border-t-4 border-orange-500 transform transition-transform duration-500 bg-white">
-                <h3 className="text-3xl sm:text-4xl font-black text-blue-950 uppercase tracking-tight mb-3 group-hover:text-orange-500 transition-colors duration-300">
+                <h3 className="text-3xl sm:text-4xl font-black text-[#b5d334] uppercase tracking-tight mb-3 group-hover:text-orange-500 transition-colors duration-300">
                   {residence.name}
                 </h3>
 

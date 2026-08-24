@@ -16,14 +16,14 @@ export default function AddressAbout() {
           <div className="lg:col-span-6">
             <div className="inline-flex items-center gap-3 mb-6">
               <span className="w-12 h-px bg-blue-950"></span>
-              <span className="text-sm font-bold uppercase tracking-[0.2em] text-blue-950">
+              <span className="text-sm font-bold uppercase tracking-[0.2em] text-orange-500">
                 Architectural Landmark
               </span>
             </div>
 
-            <h2 className="text-3xl sm:text-5xl font-black text-blue-950 uppercase tracking-tighter mb-8 leading-tight">
+            <h2 className="text-3xl sm:text-5xl font-black text-[#b5d334] uppercase tracking-tighter mb-8 leading-tight">
               Comfort, Convenience, <br />
-              <span className="text-orange-500">And Elegance.</span>
+              <span className="text-[#b5d334]">And Elegance.</span>
             </h2>
 
             <div className="space-y-6 text-slate-600 font-light text-base sm:text-lg leading-relaxed mb-10">

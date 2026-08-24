@@ -22,11 +22,11 @@ export default function AttaDokuAmenities() {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center gap-2 bg-blue-950/5 px-4 py-1.5 rounded-full mb-4 border border-blue-950/10">
             <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span>
-            <span className="text-xs font-bold uppercase tracking-widest text-blue-950">
+            <span className="text-xs font-bold uppercase tracking-widest text-orange-500">
               Resort-Style Living
             </span>
           </div>
-          <h2 className="text-3xl sm:text-4xl font-black text-blue-950 tracking-tight mb-3">
+          <h2 className="text-3xl sm:text-4xl font-black text-[#b5d334] tracking-tight mb-3">
             Remarkable Features
           </h2>
           <p className="text-base sm:text-lg text-slate-600 font-normal">
@@ -61,7 +61,7 @@ export default function AttaDokuAmenities() {
                 <div className="inline-block text-xs font-bold uppercase tracking-wider text-orange-600 mb-1">
                   01 . Premier Hub
                 </div>
-                <h3 className="text-lg font-bold text-blue-950 uppercase tracking-tight">
+                <h3 className="text-lg font-bold text-[#b5d334] uppercase tracking-tight">
                   Clubhouse With <br className="hidden md:block"/> Event Space
                 </h3>
                 <p className="text-sm text-slate-500 font-normal mt-2 leading-relaxed">
@@ -74,7 +74,7 @@ export default function AttaDokuAmenities() {
                 <div className="inline-block text-xs font-bold uppercase tracking-wider text-orange-600 mb-1">
                   02 . Oasis Retreat
                 </div>
-                <h3 className="text-lg font-bold text-blue-950 uppercase tracking-tight">
+                <h3 className="text-lg font-bold text-[#b5d334] uppercase tracking-tight">
                   Swimming <br className="hidden md:block"/> Pool
                 </h3>
                 <p className="text-sm text-slate-500 font-normal mt-2 leading-relaxed">
@@ -87,7 +87,7 @@ export default function AttaDokuAmenities() {
                 <div className="inline-block text-xs font-bold uppercase tracking-wider text-orange-600 mb-1">
                   03 . Active Wellness
                 </div>
-                <h3 className="text-lg font-bold text-blue-950 uppercase tracking-tight">
+                <h3 className="text-lg font-bold text-[#b5d334] uppercase tracking-tight">
                   Fitness <br className="hidden md:block"/> Centre
                 </h3>
                 <p className="text-sm text-slate-500 font-normal mt-2 leading-relaxed">
@@ -121,7 +121,7 @@ export default function AttaDokuAmenities() {
                 <div className="inline-block text-xs font-bold uppercase tracking-wider text-orange-600 mb-1">
                   04 . Green Sanctuary
                 </div>
-                <h3 className="text-lg font-bold text-blue-950 uppercase tracking-tight">
+                <h3 className="text-lg font-bold text-[#b5d334] uppercase tracking-tight">
                   Community Gardens
                 </h3>
                 <p className="text-sm text-slate-500 font-normal mt-2 leading-relaxed">
@@ -134,7 +134,7 @@ export default function AttaDokuAmenities() {
                 <div className="inline-block text-xs font-bold uppercase tracking-wider text-orange-600 mb-1">
                   05 . Premium Care
                 </div>
-                <h3 className="text-lg font-bold text-blue-950 uppercase tracking-tight">
+                <h3 className="text-lg font-bold text-[#b5d334] uppercase tracking-tight">
                   On-Site Management & Maintenance
                 </h3>
                 <p className="text-sm text-slate-500 font-normal mt-2 leading-relaxed">
@@ -159,7 +159,7 @@ export default function AttaDokuAmenities() {
               <span className="text-xs font-bold uppercase tracking-widest text-orange-400">
                 Standard Turnkey Specifications
               </span>
-              <h4 className="text-2xl sm:text-3xl font-black tracking-tight uppercase">
+              <h4 className="text-2xl sm:text-3xl font-black tracking-tight uppercase text-[#b5d334]">
                 All Homes <br /> Include:
               </h4>
               <div className="w-12 h-1 bg-orange-500 rounded-full mt-4"></div>

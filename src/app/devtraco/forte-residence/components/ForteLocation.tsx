@@ -55,13 +55,13 @@ export default function ForteLocation() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end border-b border-slate-100 pb-16 mb-20">
           <div className="lg:col-span-7">
             <div className="inline-flex items-center gap-2 bg-blue-50 px-3 py-1 rounded mb-4">
-              <span className="text-xs font-black text-blue-950 uppercase tracking-widest">
+              <span className="text-xs font-black text-orange-500 uppercase tracking-widest">
                 Connected Living
               </span>
             </div>
-            <h2 className="text-4xl sm:text-5xl font-black text-blue-950 uppercase tracking-tighter leading-none">
+            <h2 className="text-4xl sm:text-5xl font-black text-[#b5d334] uppercase tracking-tighter leading-none">
               The Connected <br />
-              <span className="text-orange-500">Neighborhood</span>
+              <span className="text-[#b5d334]">Neighborhood</span>
             </h2>
           </div>
           <div className="lg:col-span-5">
@@ -71,9 +71,6 @@ export default function ForteLocation() {
           </div>
         </div>
 
-        {/* =========================================================
-            4-COLUMN FEATURES GRID
-            ========================================================= */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8">
           {locations.map((loc, idx) => (
             <div key={idx} className="group flex flex-col items-start">
@@ -86,7 +83,7 @@ export default function ForteLocation() {
               </div>
 
               {/* Title Accent */}
-              <h3 className="text-lg font-black text-blue-950 uppercase tracking-tight mb-3 flex items-center gap-2">
+              <h3 className="text-lg font-black text-[#b5d334] uppercase tracking-tight mb-3 flex items-center gap-2">
                 <span className="text-xs font-bold text-slate-300">0{idx + 1}</span>
                 {loc.title}
               </h3>

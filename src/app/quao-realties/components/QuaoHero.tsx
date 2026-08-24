@@ -33,7 +33,6 @@ export default function QuaoHero() {
   return (
     <section className="relative h-screen min-h-[600px] w-full bg-blue-950 flex flex-col justify-center overflow-hidden">
       
-      {/* Custom Keyframes for the Text Animations & Glowing Buttons */}
       <style dangerouslySetInnerHTML={{ __html: `
         @keyframes fadeIn {
           from { opacity: 0; transform: translateY(20px); }
@@ -62,9 +61,7 @@ export default function QuaoHero() {
         }
       `}} />
 
-      {/* =========================================================
-          BACKGROUND CINEMATIC SLIDER
-          ========================================================= */}
+      
       {heroSlides.map((slide, index) => (
         <div
           key={slide.id}
@@ -104,11 +101,11 @@ export default function QuaoHero() {
         </div>
 
         {/* Clean Line-Broken Tagline with Continuous floating + shimmer */}
-        <h1 className="text-5xl sm:text-7xl lg:text-8xl font-black text-white uppercase tracking-tight mb-6 drop-shadow-2xl leading-[1.1] sm:leading-none">
+        <h1 className="text-5xl sm:text-7xl lg:text-8xl font-black text-[#b5d334] uppercase tracking-tight mb-6 drop-shadow-2xl leading-[1.1] sm:leading-none">
           <span className="animate-float-1">
             It's Where
           </span>
-          <span className="animate-float-2 text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-orange-200 to-orange-500 animate-shimmer-text mt-2 block pb-4">
+          <span className="animate-float-2 text-[#b5d334] animate-shimmer-text mt-2 block pb-4">
             You Belong.
           </span>
         </h1>
@@ -124,7 +121,7 @@ export default function QuaoHero() {
           {/* Primary Action Button */}
           <Link
             href="#residences"
-            className="group relative px-8 py-4 bg-orange-500 text-white font-bold uppercase tracking-widest text-xs sm:text-sm transition-all duration-500 hover:bg-orange-600 hover:scale-105 hover:shadow-[0_0_30px_rgba(249,115,22,0.5)] rounded-full w-full sm:w-auto flex justify-center items-center gap-3"
+            className="group relative px-8 py-4 bg-[#b5d334] text-white font-bold uppercase tracking-widest text-xs sm:text-sm transition-all duration-500 hover:bg-orange-600 hover:scale-105 hover:shadow-[0_0_30px_rgba(249,115,22,0.5)] rounded-full w-full sm:w-auto flex justify-center items-center gap-3"
           >
             <span>View Our Residences</span>
             <svg className="w-5 h-5 transform transition-transform duration-500 group-hover:translate-x-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>

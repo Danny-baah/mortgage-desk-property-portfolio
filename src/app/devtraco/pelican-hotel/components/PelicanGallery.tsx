@@ -171,9 +171,7 @@ export default function PelicanGallery() {
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
-        {/* =========================================================
-            HEADER
-            ========================================================= */}
+       
         <div className="text-center mb-20">
           <div className="flex justify-center mb-4">
             <div className="inline-flex items-center gap-3">
@@ -184,8 +182,8 @@ export default function PelicanGallery() {
               <span className="w-8 h-px bg-orange-500"></span>
             </div>
           </div>
-          <h2 className="text-4xl sm:text-5xl font-black text-blue-950 uppercase tracking-tighter mb-6">
-            Inside <span className="text-orange-500">The Pelican</span>
+          <h2 className="text-4xl sm:text-5xl font-black text-[#b5d334] uppercase tracking-tighter mb-6">
+            Inside <span className="text-[#b5d334]">The Pelican</span>
           </h2>
           <p className="max-w-2xl mx-auto text-slate-600 font-light text-lg">
             Explore the multi-award-winning architecture, curated interior elegance, and specialized functional design of Ghana's premier hotel asset.

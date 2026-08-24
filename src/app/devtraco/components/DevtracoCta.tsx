@@ -38,7 +38,7 @@ export default function CTA() {
             </div>
             
             {/* The animating headline */}
-            <h2 className="text-4xl sm:text-5xl font-black text-white leading-tight mb-6 animate-zoom-pulse drop-shadow-md">
+            <h2 className="text-4xl sm:text-5xl font-black text-[#b5d334] leading-tight mb-6 animate-zoom-pulse drop-shadow-md">
               Interested in purchasing a Devtraco property?
             </h2>
             

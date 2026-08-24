@@ -19,9 +19,9 @@ export default function ForteAbout() {
               </span>
             </div>
 
-            <h2 className="text-3xl sm:text-4xl font-black text-blue-950 uppercase tracking-tighter mb-8 leading-tight">
+            <h2 className="text-3xl sm:text-4xl font-black text-[#b5d334] uppercase tracking-tighter mb-8 leading-tight">
               An Unparalleled <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-orange-600">
+              <span className="text-[#b5d334]">
                 Family Sanctuary
               </span>
             </h2>
@@ -41,11 +41,11 @@ export default function ForteAbout() {
             {/* Quick Metrics */}
             <div className="grid grid-cols-2 gap-6 mt-12 pt-8 border-t border-slate-150">
               <div>
-                <span className="block text-4xl font-black text-blue-950 tracking-tighter">18</span>
+                <span className="block text-4xl font-black text-[#b5d334] tracking-tighter">18</span>
                 <span className="text-xs font-bold text-slate-400 uppercase tracking-widest">Exclusive Townhouses</span>
               </div>
               <div>
-                <span className="block text-4xl font-black text-blue-950 tracking-tighter">Gated</span>
+                <span className="block text-4xl font-black text-[#b5d334] tracking-tighter">Gated</span>
                 <span className="text-xs font-bold text-slate-400 uppercase tracking-widest">24/7 Premium Security</span>
               </div>
             </div>

@@ -97,14 +97,14 @@ export default function ArloGallery() {
           <div className="flex justify-center mb-4">
             <div className="inline-flex items-center gap-3">
               <span className="w-8 h-px bg-blue-950"></span>
-              <span className="text-sm font-bold uppercase tracking-[0.2em] text-blue-950">
+              <span className="text-sm font-bold uppercase tracking-[0.2em] text-orange-500">
                 Visual Experience
               </span>
               <span className="w-8 h-px bg-blue-950"></span>
             </div>
           </div>
-          <h2 className="text-4xl sm:text-5xl font-black text-blue-950 uppercase tracking-tighter mb-6">
-            Inside <span className="text-orange-500">Arlo</span>
+          <h2 className="text-4xl sm:text-5xl font-black text-[#b5d334] uppercase tracking-tighter mb-6">
+            Inside <span className="text-[#b5d334]">Arlo</span>
           </h2>
           <p className="max-w-2xl mx-auto text-slate-600 font-light text-lg">
             A curated look into the deliberate design, premium finishes, and effortless balance of Arlo's residential collections.

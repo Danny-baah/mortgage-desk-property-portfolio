@@ -83,15 +83,15 @@ export default function AddressGallery() {
           <div className="flex justify-center mb-4">
             <div className="inline-flex items-center gap-3">
               <span className="w-8 h-px bg-blue-950"></span>
-              <span className="text-sm font-bold uppercase tracking-[0.2em] text-blue-950">
+              <span className="text-sm font-bold uppercase tracking-[0.2em] text-orange-500">
                 Visual Portfolio
               </span>
               <span className="w-8 h-px bg-blue-950"></span>
             </div>
           </div>
-          <h2 className="text-4xl sm:text-5xl font-black text-blue-950 uppercase tracking-tighter mb-6 leading-none shadow-orange-500/10">
+          <h2 className="text-4xl sm:text-5xl font-black text-[#b5d334] uppercase tracking-tighter mb-6 leading-none shadow-orange-500/10">
             A New Standard <br />
-            <span className="text-orange-500">In Accra</span>
+            <span className="text-[#b5d334]">In Accra</span>
           </h2>
           <p className="text-slate-600 font-light text-lg">
             Explore the multi-tower architecture, meticulously engineered to combine elite professional residency with high-yield capital performance.

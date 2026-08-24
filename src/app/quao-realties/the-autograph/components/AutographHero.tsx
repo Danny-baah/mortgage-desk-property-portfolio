@@ -44,9 +44,9 @@ export default function AutographHero() {
           </div>
         </div>
 
-        <h1 className="text-4xl sm:text-6xl lg:text-7xl font-black text-white uppercase tracking-tight mb-6 drop-shadow-2xl leading-[1.1] sm:leading-[1.15] animate-[fadeIn_1.3s_ease-out_forwards]">
+        <h1 className="text-4xl sm:text-6xl lg:text-7xl font-black text-[#b5d334] uppercase tracking-tight mb-6 drop-shadow-2xl leading-[1.1] sm:leading-[1.15] animate-[fadeIn_1.3s_ease-out_forwards]">
           Signature <br className="hidden sm:block" />
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-orange-200 to-orange-500">
+          <span className="text-[b5d334]">
             Living
           </span>
         </h1>
@@ -58,7 +58,7 @@ export default function AutographHero() {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-5 animate-[fadeIn_1.9s_ease-out_forwards]">
           <Link
             href="#about-autograph"
-            className="group relative px-8 py-4 bg-orange-500 text-white font-bold uppercase tracking-widest text-xs sm:text-sm transition-all duration-500 hover:bg-orange-600 hover:scale-105 hover:shadow-[0_0_30px_rgba(249,115,22,0.5)] rounded-full w-full sm:w-auto flex justify-center items-center gap-3"
+            className="group relative px-8 py-4 bg-[#b5d334] text-white font-bold uppercase tracking-widest text-xs sm:text-sm transition-all duration-500 hover:bg-orange-600 hover:scale-105 hover:shadow-[0_0_30px_rgba(249,115,22,0.5)] rounded-full w-full sm:w-auto flex justify-center items-center gap-3"
           >
             <span>Discover The Autograph</span>
             <svg className="w-5 h-5 transform transition-transform duration-500 group-hover:translate-y-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>

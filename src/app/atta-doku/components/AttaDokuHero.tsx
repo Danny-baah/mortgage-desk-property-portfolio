@@ -23,7 +23,11 @@ interface WavingTextProps {
 }
 
 // 2. PURE SUB-COMPONENT: Safely fragments text into staggered waving letters
-function WavingText({ text, className = "", startDelayIndex = 0 }: WavingTextProps) {
+function WavingText({
+  text,
+  className = "",
+  startDelayIndex = 0,
+}: WavingTextProps) {
   return (
     <span className="inline-block">
       {text.split("").map((char, index) => {
@@ -57,7 +61,7 @@ export default function AttaDokuHero() {
     <section className="relative min-h-[90vh] lg:min-h-screen bg-blue-950 flex items-center overflow-hidden">
       {/* Injecting static animation styles safely */}
       <style dangerouslySetInnerHTML={{ __html: waveAnimationStyles }} />
-      
+
       {/* Background Graphic Elements */}
       <div className="absolute top-0 right-0 w-[50%] h-[50%] bg-orange-500/15 rounded-full blur-[120px] pointer-events-none z-10"></div>
       <div className="absolute bottom-0 left-0 w-[40%] h-[40%] bg-blue-500/20 rounded-full blur-[120px] pointer-events-none z-10"></div>
@@ -79,10 +83,8 @@ export default function AttaDokuHero() {
       {/* Main Layout Container */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20 pt-32 pb-20 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-          
           {/* LEFT COLUMN: Premium Editorial Value Proposition */}
           <div className="lg:col-span-7 flex flex-col items-start text-left space-y-6 max-w-2xl">
-            
             {/* Tagline Badge */}
             <div className="inline-flex items-center gap-2.5 bg-blue-900/50 backdrop-blur-md px-4 py-2 rounded-full border border-blue-700/50 shadow-inner">
               <span className="w-2 h-2 rounded-full bg-orange-500 shadow-md shadow-orange-500/50"></span>
@@ -91,40 +93,48 @@ export default function AttaDokuHero() {
               </span>
             </div>
 
-            {/* Main Headline with Safe Letter Wave Ripples */}
-            <h1 className="text-4xl sm:text-5xl lg:text-7xl font-black text-white tracking-tight leading-[1.2]">
+            {/* Main Headline styled completely with your dominant color (#b5d334) */}
+            <h1 className="text-4xl sm:text-5xl lg:text-7xl font-black text-[#b5d334] tracking-tight leading-[1.2]">
               <span className="block">
-                <WavingText text="Live in " startDelayIndex={0} />
-                <WavingText 
-                  text="Serenity." 
-                  className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-500" 
-                  startDelayIndex={8} 
-                />
+                <WavingText text="Live in Serenity." startDelayIndex={0} />
               </span>
               <span className="block mt-1">
-                <WavingText text="Own Luxury." startDelayIndex={18} />
+                <WavingText text="Own Luxury." startDelayIndex={16} />
               </span>
             </h1>
 
             {/* Subtext describing the lifestyle */}
             <p className="text-base sm:text-lg text-blue-100/80 font-light leading-relaxed">
-              Escape the noise of the city. Atta Doku Meadows offers an exclusive luxury gated community featuring 28 multi-unit homes, situated perfectly just a 15-minute walk from the pristine oceanfront. 
+              Escape the noise of the city. Atta Doku Meadows offers an
+              exclusive luxury gated community featuring 28 multi-unit homes,
+              situated perfectly just a 15-minute walk from the pristine
+              oceanfront.
             </p>
 
             {/* CTA Interaction Block */}
             <div className="flex flex-col sm:flex-row gap-4 pt-4 w-full sm:w-auto items-stretch sm:items-center">
-              {/* BUTTON 1: Smooth scrolls down to section container with ID #explore-models */}
+              {/* BUTTON 1: Updated with dominant color background and contrasting text */}
               <a
                 href="#explore-models"
                 onClick={handleScroll}
-                className="group inline-flex items-center justify-center px-8 py-4 bg-orange-500 text-white font-extrabold rounded-full transition-all duration-300 hover:bg-orange-600 shadow-xl shadow-orange-500/20 hover:-translate-y-0.5 text-sm text-center cursor-pointer"
+                className="group inline-flex items-center justify-center px-8 py-4 bg-[#b5d334] text-blue-950 font-extrabold rounded-full transition-all duration-300 hover:bg-white shadow-xl shadow-[#b5d334]/20 hover:-translate-y-0.5 text-sm text-center cursor-pointer"
               >
                 Explore Home Models
-                <svg className="w-4 h-4 ml-2 transform transition-transform duration-300 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                <svg
+                  className="w-4 h-4 ml-2 transform transition-transform duration-300 group-hover:translate-x-1"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth={3}
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M19 9l-7 7-7-7"
+                  />
                 </svg>
               </a>
-              
+
               {/* BUTTON 2: Redirects natively to the /register route */}
               <Link
                 href="/register"
@@ -134,34 +144,42 @@ export default function AttaDokuHero() {
               </Link>
             </div>
 
-            {/* UPGRADED: Glassmorphism Statistics Cards */}
+            {/* Glassmorphism Statistics Cards: Updated to dominant color background with deep navy text */}
             <div className="grid grid-cols-3 gap-3 sm:gap-6 pt-10 w-full max-w-xl">
-              
               {/* Card 1 */}
-              <div className="bg-blue-900/40 backdrop-blur-sm border border-blue-800/50 rounded-2xl p-4 sm:p-5 text-center transition-transform hover:-translate-y-1 duration-300">
-                <p className="text-2xl sm:text-3xl font-black text-white">28</p>
-                <p className="text-[10px] font-bold text-orange-400 uppercase tracking-wider mt-1">Exclusive Units</p>
+              <div className="bg-[#b5d334] rounded-2xl p-4 sm:p-5 text-center transition-transform hover:-translate-y-1 duration-300 shadow-lg shadow-[#b5d334]/10">
+                <p className="text-2xl sm:text-3xl font-black text-blue-950">
+                  28
+                </p>
+                <p className="text-[10px] font-black text-blue-900/80 uppercase tracking-wider mt-1">
+                  Exclusive Units
+                </p>
               </div>
-              
+
               {/* Card 2 */}
-              <div className="bg-blue-900/40 backdrop-blur-sm border border-blue-800/50 rounded-2xl p-4 sm:p-5 text-center transition-transform hover:-translate-y-1 duration-300">
-                <p className="text-2xl sm:text-3xl font-black text-orange-500">15 Min</p>
-                <p className="text-[10px] font-bold text-blue-200 uppercase tracking-wider mt-1">Walk to Beach</p>
+              <div className="bg-[#b5d334] rounded-2xl p-4 sm:p-5 text-center transition-transform hover:-translate-y-1 duration-300 shadow-lg shadow-[#b5d334]/10">
+                <p className="text-2xl sm:text-3xl font-black text-blue-950">
+                  15 Min
+                </p>
+                <p className="text-[10px] font-black text-blue-900/80 uppercase tracking-wider mt-1">
+                  Walk to Beach
+                </p>
               </div>
-              
+
               {/* Card 3 */}
-              <div className="bg-blue-900/40 backdrop-blur-sm border border-blue-800/50 rounded-2xl p-4 sm:p-5 text-center transition-transform hover:-translate-y-1 duration-300">
-                <p className="text-2xl sm:text-3xl font-black text-white">2 - 4</p>
-                <p className="text-[10px] font-bold text-orange-400 uppercase tracking-wider mt-1">Bed Options</p>
+              <div className="bg-[#b5d334] rounded-2xl p-4 sm:p-5 text-center transition-transform hover:-translate-y-1 duration-300 shadow-lg shadow-[#b5d334]/10">
+                <p className="text-2xl sm:text-3xl font-black text-blue-950">
+                  2 - 4
+                </p>
+                <p className="text-[10px] font-black text-blue-900/80 uppercase tracking-wider mt-1">
+                  Bed Options
+                </p>
               </div>
-
             </div>
-
           </div>
 
           {/* RIGHT COLUMN: Hidden layout balance spacer */}
           <div className="lg:col-span-5 hidden lg:block"></div>
-
         </div>
       </div>
 

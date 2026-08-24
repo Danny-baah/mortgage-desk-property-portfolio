@@ -17,8 +17,8 @@ export default function AddressCTA() {
             Roman Ridge Premium Inventory
           </span>
           
-          <h2 className="text-3xl sm:text-4xl font-black text-white uppercase tracking-tight mb-4 leading-tight">
-            Secure Your Positioning <br />At <span className="text-orange-500">The Address</span>
+          <h2 className="text-3xl sm:text-4xl font-black text-[#b5d334] uppercase tracking-tight mb-4 leading-tight">
+            Secure Your Positioning <br />At <span className="text-[#b5d334]">The Address</span>
           </h2>
           
           <p className="text-slate-300 font-light mb-10 text-sm sm:text-base leading-relaxed">
@@ -30,7 +30,7 @@ export default function AddressCTA() {
             
             <Link
               href="/register"
-              className="inline-flex items-center justify-center px-8 py-4 bg-orange-500 text-white hover:bg-orange-600 text-xs font-bold uppercase tracking-widest rounded-full transition-all duration-300 shadow-lg shadow-orange-500/10 w-full sm:w-auto text-center"
+              className="inline-flex items-center justify-center px-8 py-4 bg-[#b5d334] text-white hover:bg-orange-600 text-xs font-bold uppercase tracking-widest rounded-full transition-all duration-300 shadow-lg shadow-orange-500/10 w-full sm:w-auto text-center"
             >
               Register Allocation
             </Link>

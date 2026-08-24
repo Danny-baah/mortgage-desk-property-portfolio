@@ -21,7 +21,7 @@ export default function PeregrinoDetails() {
                 </span>
               </div>
               
-              <h3 className="text-3xl font-black text-blue-950 mb-4 tracking-tight">
+              <h3 className="text-3xl font-black text-[#b5d334] mb-4 tracking-tight">
                 Property Details
               </h3>
               
@@ -34,12 +34,12 @@ export default function PeregrinoDetails() {
               <div className="absolute -left-[4.5px] top-0 w-2 h-2 bg-blue-900 rounded-full transition-transform duration-300 group-hover:scale-150"></div>
               
               <div className="flex items-center gap-2 mb-3">
-                <span className="text-xs font-black uppercase tracking-[0.25em] text-blue-900">
+                <span className="text-xs font-black uppercase tracking-[0.25em] text-blue-950">
                   02 / Aesthetics
                 </span>
               </div>
               
-              <h3 className="text-3xl font-black text-blue-950 mb-4 tracking-tight">
+              <h3 className="text-3xl font-black text-[#b5d334] mb-4 tracking-tight">
                 Interior Highlights
               </h3>
               

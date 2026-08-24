@@ -22,9 +22,9 @@ export default function ManoraAbout() {
               </span>
             </div>
             
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-blue-950 uppercase tracking-tight mb-8 leading-[1.1]">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-[#b5d334] uppercase tracking-tight mb-8 leading-[1.1]">
               Where Luxury <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-600">
+              <span className="text-[#b5d334]">
                 Meets Lifestyle
               </span>
             </h2>

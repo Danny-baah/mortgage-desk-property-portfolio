@@ -24,9 +24,7 @@ export default function QuaoAbout() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
-          {/* =========================================================
-              LEFT SIDE: IMAGE SHOWCASE
-              ========================================================= */}
+         
           <div className="relative group">
             {/* Orange Decorative Backdrop */}
             <div className="absolute -inset-4 sm:-inset-6 bg-orange-500/10 rounded-2xl transform rotate-2 transition-transform duration-700 group-hover:rotate-3"></div>
@@ -86,9 +84,9 @@ export default function QuaoAbout() {
               </span>
             </div>
 
-            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black text-blue-950 uppercase tracking-tight mb-8 leading-[1.1]">
+            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black text-[#b5d334] uppercase tracking-tight mb-8 leading-[1.1]">
               It's Where <br className="hidden sm:block" />
-              <span className="text-orange-500">You Belong.</span>
+              <span className="text-[#b5d334]">You Belong.</span>
             </h2>
 
             {/* Paragraphs */}

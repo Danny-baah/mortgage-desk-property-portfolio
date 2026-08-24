@@ -57,7 +57,7 @@ export default function MacCapitalGallery() {
             </span>
             <span className="w-8 h-px bg-orange-500"></span>
           </div>
-          <h2 className="text-4xl md:text-5xl font-black text-blue-950 mb-6 tracking-tight">
+          <h2 className="text-4xl md:text-5xl font-black text-[#b5d334] mb-6 tracking-tight">
             Property Gallery
           </h2>
           <p className="text-lg text-slate-600 font-light leading-relaxed">

@@ -33,11 +33,11 @@ export default function PelicanHero() {
         </div>
 
         {/* Animated Headline */}
-        <h1 className="text-4xl sm:text-6xl lg:text-7xl font-black text-white uppercase tracking-tighter mb-6 leading-none flex flex-col items-center">
+        <h1 className="text-4xl sm:text-6xl lg:text-7xl font-black text-[#b5d334] uppercase tracking-tighter mb-6 leading-none flex flex-col items-center">
           <span className="animate-slide-down inline-block tracking-tight">
             THE PELICAN
           </span>
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-500 animate-slide-up inline-block mt-1 sm:mt-2">
+          <span className="text-[#b5d334] animate-slide-up inline-block mt-1 sm:mt-2">
             HOTEL
           </span>
         </h1>
@@ -49,7 +49,7 @@ export default function PelicanHero() {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full sm:w-auto animate-fade-in-delayed-more">
           <Link
             href="#about-pelican"
-            className="inline-flex items-center justify-center px-8 py-4 bg-orange-500 text-white font-bold uppercase tracking-widest text-xs rounded-full transition-all duration-300 hover:bg-orange-600 hover:scale-105 shadow-xl shadow-orange-500/20 w-full sm:w-auto"
+            className="inline-flex items-center justify-center px-8 py-4 bg-[#b5d334] text-white font-bold uppercase tracking-widest text-xs rounded-full transition-all duration-300 hover:bg-orange-600 hover:scale-105 shadow-xl shadow-orange-500/20 w-full sm:w-auto"
           >
             Explore the Asset
           </Link>

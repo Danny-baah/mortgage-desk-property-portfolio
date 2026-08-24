@@ -16,8 +16,8 @@ export default function PelicanCTA() {
             Exclusive Cantonments Inventory
           </span>
           
-          <h2 className="text-3xl sm:text-4xl font-black text-white uppercase tracking-tight mb-4 leading-none">
-            Secure Your <span className="text-orange-500">Pelican</span> Allocation
+          <h2 className="text-3xl sm:text-4xl font-black text-[#b5d334] uppercase tracking-tight mb-4 leading-none">
+            Secure Your <span className="text-[#b5d334]">Pelican</span> Allocation
           </h2>
           
           <p className="max-w-2xl mx-auto text-slate-300 font-light mb-8 text-sm sm:text-base leading-relaxed">
@@ -27,7 +27,7 @@ export default function PelicanCTA() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2.5 px-8 py-4 bg-orange-500 text-white hover:bg-orange-600 text-xs font-bold uppercase tracking-widest rounded-full transition-all duration-300 shadow-lg shadow-orange-500/20 w-full sm:w-auto text-center justify-center group"
+              className="inline-flex items-center gap-2.5 px-8 py-4 bg-[#b5d334] text-white hover:bg-orange-600 text-xs font-bold uppercase tracking-widest rounded-full transition-all duration-300 shadow-lg shadow-orange-500/20 w-full sm:w-auto text-center justify-center group"
             >
               <span>Contact the Access mortgage desk</span>
               <svg className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>

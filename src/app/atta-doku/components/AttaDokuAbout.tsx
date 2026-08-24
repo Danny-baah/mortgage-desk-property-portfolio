@@ -68,9 +68,9 @@ export default function AttaDokuAbout() {
               </span>
             </div>
 
-            <h2 className="text-3xl md:text-5xl font-black text-blue-950 mb-6 leading-[1.15] tracking-tight">
+            <h2 className="text-3xl md:text-5xl font-black text-[#b5d334] mb-6 leading-[1.15] tracking-tight">
               A meticulously planned <br />
-              <span className="text-orange-500">coastal haven.</span>
+              <span className="text-[#b5d334]">coastal haven.</span>
             </h2>
 
             <div className="space-y-5 text-slate-600 font-normal text-base md:text-lg leading-relaxed">

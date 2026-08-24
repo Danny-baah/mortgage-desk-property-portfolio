@@ -45,19 +45,16 @@ export default function AddressAccommodation() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
-        {/* =========================================================
-            SECTION HEADER
-            ========================================================= */}
         <div className="max-w-3xl mb-24">
           <div className="inline-flex items-center gap-3 mb-4">
             <span className="w-8 h-px bg-blue-950"></span>
-            <span className="text-sm font-bold uppercase tracking-[0.2em] text-blue-950">
+            <span className="text-sm font-bold uppercase tracking-[0.2em] text-[#b5d334]">
               Residential Frameworks
             </span>
           </div>
-          <h2 className="text-4xl sm:text-5xl font-black text-blue-950 uppercase tracking-tighter mb-6">
+          <h2 className="text-4xl sm:text-5xl font-black text-[#b5d334] uppercase tracking-tighter mb-6">
             Accommodation & <br />
-            <span className="text-orange-500">Investor Portfolios</span>
+            <span className="text-[#b5d334]">Investor Portfolios</span>
           </h2>
           <p className="text-slate-600 font-light text-lg leading-relaxed">
             A comprehensive breakdown of structural assets engineered to accommodate top-tier residency profiles and sophisticated international capital deployments.
@@ -107,7 +104,7 @@ export default function AddressAccommodation() {
                     </span>
                   </div>
 
-                  <h3 className="text-2xl sm:text-3xl font-black text-blue-950 uppercase tracking-tight mb-2 leading-none">
+                  <h3 className="text-2xl sm:text-3xl font-black text-[#b5d334] uppercase tracking-tight mb-2 leading-none">
                     {block.title}
                   </h3>
                   

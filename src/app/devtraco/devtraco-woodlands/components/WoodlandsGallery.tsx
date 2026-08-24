@@ -63,21 +63,18 @@ export default function WoodlandsGallery() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
-        {/* =========================================================
-            CENTERED HEADER
-            ========================================================= */}
         <div className="text-center mb-20 max-w-2xl mx-auto">
           <div className="flex justify-center mb-4">
             <div className="inline-flex items-center gap-3">
-              <span className="w-8 h-px bg-emerald-600"></span>
-              <span className="text-xs font-bold uppercase tracking-[0.25em] text-emerald-600">
+              <span className="w-8 h-px bg-orange-500"></span>
+              <span className="text-xs font-bold uppercase tracking-[0.25em] text-orange-500">
                 Visual Portfolio
               </span>
-              <span className="w-8 h-px bg-emerald-600"></span>
+              <span className="w-8 h-px bg-orange-500"></span>
             </div>
           </div>
-          <h2 className="text-4xl sm:text-5xl font-black text-blue-950 uppercase tracking-tighter mb-6 leading-none shadow-orange-500/10">
-            A Living <span className="text-orange-500">Masterpiece</span>
+          <h2 className="text-4xl sm:text-5xl font-black text-[#b5d334] uppercase tracking-tighter mb-6 leading-none shadow-orange-500/10">
+            A Living <span className="text-[#b5d334]">Masterpiece</span>
           </h2>
           <p className="text-slate-600 font-light text-base sm:text-lg mx-auto max-w-lg">
             Explore the harmonious blend of modern infrastructure, lush natural ecosystems, and elite community lifestyle amenities.
